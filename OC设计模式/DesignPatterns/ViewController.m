@@ -1,0 +1,82 @@
+//
+//  ViewController.m
+//  DesignPatterns
+//
+//  Created by 小李 on 2019/6/20.
+//  Copyright © 2019 小李. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "DPViewCell.h"
+#import "DPModel.h"
+#import "DPVCManager.h"
+
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, strong) DPVCManager *vcManager;
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(0);
+    }];
+    [self addData];
+}
+
+- (void)addData {
+    DPModel *model = [[DPModel alloc] init];
+    model.title = @"简单工厂";
+    [self.dataArray addObject:model];
+    [self.tableView reloadData];
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] init];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        
+    }
+    return _tableView;
+}
+
+- (NSMutableArray *)dataArray {
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray array];
+    }
+    return _dataArray;
+}
+
+- (DPVCManager *)vcManager {
+    if (!_vcManager) {
+        _vcManager = [[DPVCManager alloc] init];
+        _vcManager.currentVC = self;
+    }
+    return _vcManager;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return  self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *reuseStr = @"reuseCell";
+    DPViewCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseStr];
+    if (!cell) {
+        cell = [[DPViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:reuseStr];
+    }
+    cell.model = self.dataArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self.vcManager enterVCAtIndexPath:indexPath];
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+@end

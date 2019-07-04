@@ -9,6 +9,7 @@
 
 #import "DPVCManager.h"
 #import "DP01ViewController.h"
+#import "DP02ViewController.h"
 
 @implementation DPVCManager
 
@@ -26,6 +27,9 @@
     switch (indexPath.row) {
         case 0:
             vc = [[DP01ViewController alloc] init];
+            break;
+        case 1:
+            vc = [[DP02ViewController alloc] init];
             break;
             
         default:

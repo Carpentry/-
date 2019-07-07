@@ -55,6 +55,23 @@
 		B1B39D6822BB399900C039B4 /* 原型模式.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B39D4F22BB399900C039B4 /* 原型模式.png */; };
 		B1B39D6922BB399900C039B4 /* 适配器模式.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B39D5122BB399900C039B4 /* 适配器模式.png */; };
 		C7DF74998A2F94388C7E6218 /* libPods-DesignPatterns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9933B239670A536912F40CDC /* libPods-DesignPatterns.a */; };
+		DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A0622D2404A00A83EBB /* DP03ViewController.m */; };
+		DB920A0A22D2488F00A83EBB /* DP03Component.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A0922D2488F00A83EBB /* DP03Component.m */; };
+		DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A0C22D248AC00A83EBB /* DP03ConcreteComponent.m */; };
+		DB920A1022D248C100A83EBB /* DP03Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A0F22D248C100A83EBB /* DP03Decorator.m */; };
+		DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A1222D248DF00A83EBB /* DP03ConcreteDecorator.m */; };
+		DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A1522D2490900A83EBB /* DP03ConcreteDecoratorB.m */; };
+		DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A1C22D24C9D00A83EBB /* DP03Person.m */; };
+		DB920A2022D24D0700A83EBB /* DP03PersonDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A1F22D24D0700A83EBB /* DP03PersonDecorator.m */; };
+		DB920A2322D24D3E00A83EBB /* DP03Tshirts.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A2222D24D3E00A83EBB /* DP03Tshirts.m */; };
+		DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A2522D24D5000A83EBB /* DP03BigTrouser.m */; };
+		DB920A2922D24D6000A83EBB /* DP03Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A2822D24D6000A83EBB /* DP03Sneakers.m */; };
+		DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = DB920A2B22D24D7500A83EBB /* DP03LeatherShoes.m */; };
+		DBAA000222D037E60021148C /* DP02CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAA000122D037E60021148C /* DP02CashReturn.m */; };
+		DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAA000422D037F30021148C /* DP02CashRebate.m */; };
+		DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAA000722D037FD0021148C /* DP02CashNormal.m */; };
+		DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAA000A22D03BD40021148C /* DP02CashFactory.m */; };
+		DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */ = {isa = PBXBuildFile; fileRef = DBAA000D22D04ADB0021148C /* DP02Context.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +167,41 @@
 		B1B39D4D22BB399800C039B4 /* 桥接模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桥接模式.png"; sourceTree = "<group>"; };
 		B1B39D4F22BB399900C039B4 /* 原型模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "原型模式.png"; sourceTree = "<group>"; };
 		B1B39D5122BB399900C039B4 /* 适配器模式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "适配器模式.png"; sourceTree = "<group>"; };
+		DB920A0522D2404A00A83EBB /* DP03ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03ViewController.h; sourceTree = "<group>"; };
+		DB920A0622D2404A00A83EBB /* DP03ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03ViewController.m; sourceTree = "<group>"; };
+		DB920A0822D2488F00A83EBB /* DP03Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03Component.h; sourceTree = "<group>"; };
+		DB920A0922D2488F00A83EBB /* DP03Component.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03Component.m; sourceTree = "<group>"; };
+		DB920A0B22D248AC00A83EBB /* DP03ConcreteComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03ConcreteComponent.h; sourceTree = "<group>"; };
+		DB920A0C22D248AC00A83EBB /* DP03ConcreteComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03ConcreteComponent.m; sourceTree = "<group>"; };
+		DB920A0E22D248C100A83EBB /* DP03Decorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03Decorator.h; sourceTree = "<group>"; };
+		DB920A0F22D248C100A83EBB /* DP03Decorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03Decorator.m; sourceTree = "<group>"; };
+		DB920A1122D248DF00A83EBB /* DP03ConcreteDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03ConcreteDecorator.h; sourceTree = "<group>"; };
+		DB920A1222D248DF00A83EBB /* DP03ConcreteDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03ConcreteDecorator.m; sourceTree = "<group>"; };
+		DB920A1422D2490900A83EBB /* DP03ConcreteDecoratorB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03ConcreteDecoratorB.h; sourceTree = "<group>"; };
+		DB920A1522D2490900A83EBB /* DP03ConcreteDecoratorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03ConcreteDecoratorB.m; sourceTree = "<group>"; };
+		DB920A1B22D24C9D00A83EBB /* DP03Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03Person.h; sourceTree = "<group>"; };
+		DB920A1C22D24C9D00A83EBB /* DP03Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03Person.m; sourceTree = "<group>"; };
+		DB920A1E22D24D0700A83EBB /* DP03PersonDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03PersonDecorator.h; sourceTree = "<group>"; };
+		DB920A1F22D24D0700A83EBB /* DP03PersonDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03PersonDecorator.m; sourceTree = "<group>"; };
+		DB920A2122D24D3E00A83EBB /* DP03Tshirts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03Tshirts.h; sourceTree = "<group>"; };
+		DB920A2222D24D3E00A83EBB /* DP03Tshirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03Tshirts.m; sourceTree = "<group>"; };
+		DB920A2422D24D5000A83EBB /* DP03BigTrouser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03BigTrouser.h; sourceTree = "<group>"; };
+		DB920A2522D24D5000A83EBB /* DP03BigTrouser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03BigTrouser.m; sourceTree = "<group>"; };
+		DB920A2722D24D6000A83EBB /* DP03Sneakers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03Sneakers.h; sourceTree = "<group>"; };
+		DB920A2822D24D6000A83EBB /* DP03Sneakers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03Sneakers.m; sourceTree = "<group>"; };
+		DB920A2A22D24D7500A83EBB /* DP03LeatherShoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP03LeatherShoes.h; sourceTree = "<group>"; };
+		DB920A2B22D24D7500A83EBB /* DP03LeatherShoes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP03LeatherShoes.m; sourceTree = "<group>"; };
+		DBAA000022D037E60021148C /* DP02CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02CashReturn.h; sourceTree = "<group>"; };
+		DBAA000122D037E60021148C /* DP02CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02CashReturn.m; sourceTree = "<group>"; };
+		DBAA000322D037F30021148C /* DP02CashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02CashRebate.h; sourceTree = "<group>"; };
+		DBAA000422D037F30021148C /* DP02CashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02CashRebate.m; sourceTree = "<group>"; };
+		DBAA000622D037FD0021148C /* DP02CashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02CashNormal.h; sourceTree = "<group>"; };
+		DBAA000722D037FD0021148C /* DP02CashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02CashNormal.m; sourceTree = "<group>"; };
+		DBAA000922D03BD40021148C /* DP02CashFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02CashFactory.h; sourceTree = "<group>"; };
+		DBAA000A22D03BD40021148C /* DP02CashFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02CashFactory.m; sourceTree = "<group>"; };
+		DBAA000C22D04ADB0021148C /* DP02Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02Context.h; sourceTree = "<group>"; };
+		DBAA000D22D04ADB0021148C /* DP02Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02Context.m; sourceTree = "<group>"; };
+		DBAAFFFF22D0379A0021148C /* DP02CashBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP02CashBase.h; sourceTree = "<group>"; };
 		ED71BBFF853A5EDDC746C0C0 /* libPods-DesignPatternsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPatternsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3534CFFDB70D2F2D673171 /* Pods-DesignPatternsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternsUITests/Pods-DesignPatternsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -294,7 +346,20 @@
 		B1B39D2422BB399700C039B4 /* DP03装饰 */ = {
 			isa = PBXGroup;
 			children = (
+				DB920A1722D24C6F00A83EBB /* DP03Person */,
 				B1B39D2522BB399700C039B4 /* 装饰模式.jpg */,
+				DB920A0522D2404A00A83EBB /* DP03ViewController.h */,
+				DB920A0622D2404A00A83EBB /* DP03ViewController.m */,
+				DB920A0822D2488F00A83EBB /* DP03Component.h */,
+				DB920A0922D2488F00A83EBB /* DP03Component.m */,
+				DB920A0B22D248AC00A83EBB /* DP03ConcreteComponent.h */,
+				DB920A0C22D248AC00A83EBB /* DP03ConcreteComponent.m */,
+				DB920A0E22D248C100A83EBB /* DP03Decorator.h */,
+				DB920A0F22D248C100A83EBB /* DP03Decorator.m */,
+				DB920A1122D248DF00A83EBB /* DP03ConcreteDecorator.h */,
+				DB920A1222D248DF00A83EBB /* DP03ConcreteDecorator.m */,
+				DB920A1422D2490900A83EBB /* DP03ConcreteDecoratorB.h */,
+				DB920A1522D2490900A83EBB /* DP03ConcreteDecoratorB.m */,
 			);
 			path = "DP03装饰";
 			sourceTree = "<group>";
@@ -337,6 +402,17 @@
 				B1B39D2F22BB399800C039B4 /* 策略模式.png */,
 				B156DDA022CDA7B30060F9EC /* DP02ViewController.h */,
 				B156DDA122CDA7B30060F9EC /* DP02ViewController.m */,
+				DBAAFFFF22D0379A0021148C /* DP02CashBase.h */,
+				DBAA000022D037E60021148C /* DP02CashReturn.h */,
+				DBAA000122D037E60021148C /* DP02CashReturn.m */,
+				DBAA000322D037F30021148C /* DP02CashRebate.h */,
+				DBAA000422D037F30021148C /* DP02CashRebate.m */,
+				DBAA000622D037FD0021148C /* DP02CashNormal.h */,
+				DBAA000722D037FD0021148C /* DP02CashNormal.m */,
+				DBAA000922D03BD40021148C /* DP02CashFactory.h */,
+				DBAA000A22D03BD40021148C /* DP02CashFactory.m */,
+				DBAA000C22D04ADB0021148C /* DP02Context.h */,
+				DBAA000D22D04ADB0021148C /* DP02Context.m */,
 			);
 			path = "DP02策略";
 			sourceTree = "<group>";
@@ -490,6 +566,25 @@
 				B1B39D5122BB399900C039B4 /* 适配器模式.png */,
 			);
 			path = "DP12适配器";
+			sourceTree = "<group>";
+		};
+		DB920A1722D24C6F00A83EBB /* DP03Person */ = {
+			isa = PBXGroup;
+			children = (
+				DB920A1B22D24C9D00A83EBB /* DP03Person.h */,
+				DB920A1C22D24C9D00A83EBB /* DP03Person.m */,
+				DB920A1E22D24D0700A83EBB /* DP03PersonDecorator.h */,
+				DB920A1F22D24D0700A83EBB /* DP03PersonDecorator.m */,
+				DB920A2122D24D3E00A83EBB /* DP03Tshirts.h */,
+				DB920A2222D24D3E00A83EBB /* DP03Tshirts.m */,
+				DB920A2422D24D5000A83EBB /* DP03BigTrouser.h */,
+				DB920A2522D24D5000A83EBB /* DP03BigTrouser.m */,
+				DB920A2722D24D6000A83EBB /* DP03Sneakers.h */,
+				DB920A2822D24D6000A83EBB /* DP03Sneakers.m */,
+				DB920A2A22D24D7500A83EBB /* DP03LeatherShoes.h */,
+				DB920A2B22D24D7500A83EBB /* DP03LeatherShoes.m */,
+			);
+			path = DP03Person;
 			sourceTree = "<group>";
 		};
 		E3737E9243D25DD2400138CF /* Pods */ = {
@@ -731,22 +826,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */,
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
+				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,
 				B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */,
+				DB920A1022D248C100A83EBB /* DP03Decorator.m in Sources */,
+				DB920A2022D24D0700A83EBB /* DP03PersonDecorator.m in Sources */,
+				DB920A2322D24D3E00A83EBB /* DP03Tshirts.m in Sources */,
 				B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */,
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
+				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
+				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
 				B156DD8022CC533E0060F9EC /* DPModel.m in Sources */,
+				DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */,
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
+				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
+				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
+				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
+				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
+				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,
+				DBAA000222D037E60021148C /* DP02CashReturn.m in Sources */,
+				DB920A2922D24D6000A83EBB /* DP03Sneakers.m in Sources */,
 				B156DD8922CC5C430060F9EC /* DPBaseViewController.m in Sources */,
 				B156DDA622CDCBE10060F9EC /* DPConst.m in Sources */,
+				DB920A0A22D2488F00A83EBB /* DP03Component.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,7 +964,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -905,7 +1017,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

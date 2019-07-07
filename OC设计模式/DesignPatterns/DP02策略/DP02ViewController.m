@@ -7,6 +7,8 @@
 //
 
 #import "DP02ViewController.h"
+#import "DP02CashFactory.h"
+#import "DP02Context.h"
 
 @interface DP02ViewController ()
 @property (nonatomic, strong) UITextField *unitPriceTextField;
@@ -134,6 +136,21 @@
 
 - (void)confirmButtonClicked:(UIButton *)button {
     
+    DP02Context *context = [[DP02Context alloc] initWithCashType:CashTypeNormal];
+    NSLog(@"normal:%f",[context getResult:([self.countTextField.text floatValue]*[self.unitPriceTextField.text floatValue])]);
+    
+    DP02Context *context1 = [[DP02Context alloc] initWithCashType:CashTypeRebate];
+    NSLog(@"rebate:%f",[context1 getResult:([self.countTextField.text floatValue]*[self.unitPriceTextField.text floatValue])]);
+
+    
+    DP02Context *context2 = [[DP02Context alloc] initWithCashType:CashTypeReturn];
+    NSLog(@"return:%f",[context2 getResult:([self.countTextField.text floatValue]*[self.unitPriceTextField.text floatValue])]);
+
+    
+    
+    
+    id<DP02CashBase> cash = [DP02CashFactory createCashFactory:self.stragetyTextField.text];
+//    self.totalPriceTextField.text = [[NSNumber numberWithFloat:[cash acceptCash:([self.countTextField.text floatValue]*[self.unitPriceTextField.text floatValue])]] stringValue];
 }
 
 - (void)resetButtonClicked:(UIButton *)button {

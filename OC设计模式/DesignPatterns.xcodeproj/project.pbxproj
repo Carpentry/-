@@ -22,6 +22,10 @@
 		B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DD9E22CC90D50060F9EC /* DP01Tool.m */; };
 		B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDA122CDA7B30060F9EC /* DP02ViewController.m */; };
 		B156DDA622CDCBE10060F9EC /* DPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDA522CDCBE10060F9EC /* DPConst.m */; };
+		B156DDBC22D597A20060F9EC /* DP04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDBB22D597A20060F9EC /* DP04ViewController.m */; };
+		B156DDBF22D5B52B0060F9EC /* DP04Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDBE22D5B52B0060F9EC /* DP04Proxy.m */; };
+		B156DDC222D5B53B0060F9EC /* DP04Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDC122D5B53B0060F9EC /* DP04Girl.m */; };
+		B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDC422D5B58D0060F9EC /* DP04Pursuit.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -127,6 +131,15 @@
 		B156DDA122CDA7B30060F9EC /* DP02ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP02ViewController.m; sourceTree = "<group>"; };
 		B156DDA422CDCBE10060F9EC /* DPConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPConst.h; sourceTree = "<group>"; };
 		B156DDA522CDCBE10060F9EC /* DPConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPConst.m; sourceTree = "<group>"; };
+		B156DDBA22D597A20060F9EC /* DP04ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04ViewController.h; sourceTree = "<group>"; };
+		B156DDBB22D597A20060F9EC /* DP04ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP04ViewController.m; sourceTree = "<group>"; };
+		B156DDBD22D5B52B0060F9EC /* DP04Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Proxy.h; sourceTree = "<group>"; };
+		B156DDBE22D5B52B0060F9EC /* DP04Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP04Proxy.m; sourceTree = "<group>"; };
+		B156DDC022D5B53B0060F9EC /* DP04Girl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Girl.h; sourceTree = "<group>"; };
+		B156DDC122D5B53B0060F9EC /* DP04Girl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP04Girl.m; sourceTree = "<group>"; };
+		B156DDC322D5B58D0060F9EC /* DP04Pursuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Pursuit.h; sourceTree = "<group>"; };
+		B156DDC422D5B58D0060F9EC /* DP04Pursuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP04Pursuit.m; sourceTree = "<group>"; };
+		B156DDC622D5B5D80060F9EC /* DP04Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Base.h; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -368,6 +381,15 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D2722BB399700C039B4 /* 代理模式.png */,
+				B156DDBA22D597A20060F9EC /* DP04ViewController.h */,
+				B156DDBB22D597A20060F9EC /* DP04ViewController.m */,
+				B156DDBD22D5B52B0060F9EC /* DP04Proxy.h */,
+				B156DDBE22D5B52B0060F9EC /* DP04Proxy.m */,
+				B156DDC022D5B53B0060F9EC /* DP04Girl.h */,
+				B156DDC122D5B53B0060F9EC /* DP04Girl.m */,
+				B156DDC322D5B58D0060F9EC /* DP04Pursuit.h */,
+				B156DDC422D5B58D0060F9EC /* DP04Pursuit.m */,
+				B156DDC622D5B5D80060F9EC /* DP04Base.h */,
 			);
 			path = "DP04代理";
 			sourceTree = "<group>";
@@ -833,6 +855,7 @@
 				B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */,
 				DB920A1022D248C100A83EBB /* DP03Decorator.m in Sources */,
 				DB920A2022D24D0700A83EBB /* DP03PersonDecorator.m in Sources */,
+				B156DDC222D5B53B0060F9EC /* DP04Girl.m in Sources */,
 				DB920A2322D24D3E00A83EBB /* DP03Tshirts.m in Sources */,
 				B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */,
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
@@ -850,13 +873,16 @@
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
+				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,
 				DBAA000222D037E60021148C /* DP02CashReturn.m in Sources */,
 				DB920A2922D24D6000A83EBB /* DP03Sneakers.m in Sources */,
+				B156DDBC22D597A20060F9EC /* DP04ViewController.m in Sources */,
 				B156DD8922CC5C430060F9EC /* DPBaseViewController.m in Sources */,
+				B156DDBF22D5B52B0060F9EC /* DP04Proxy.m in Sources */,
 				B156DDA622CDCBE10060F9EC /* DPConst.m in Sources */,
 				DB920A0A22D2488F00A83EBB /* DP03Component.m in Sources */,
 			);

@@ -39,6 +39,9 @@
     DPModel *model2 = [[DPModel alloc] init];
     model2.title = @"装饰";
     [self.dataArray addObject:model2];
+    DPModel *model3 = [[DPModel alloc] init];
+    model3.title = @"代理";
+    [self.dataArray addObject:model3];
     [self.tableView reloadData];
 }
 

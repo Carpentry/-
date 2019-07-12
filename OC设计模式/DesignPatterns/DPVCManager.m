@@ -12,6 +12,7 @@
 #import "DP02ViewController.h"
 #import "DP03ViewController.h"
 #import "DP04ViewController.h"
+#import "DP05ViewController.h"
 
 
 @implementation DPVCManager
@@ -39,6 +40,9 @@
             break;
         case 3:
             vc = [[DP04ViewController alloc] init];
+            break;
+        case 4:
+            vc = [[DP05ViewController alloc] init];
             break;
             
         default:

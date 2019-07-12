@@ -26,6 +26,15 @@
 		B156DDBF22D5B52B0060F9EC /* DP04Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDBE22D5B52B0060F9EC /* DP04Proxy.m */; };
 		B156DDC222D5B53B0060F9EC /* DP04Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDC122D5B53B0060F9EC /* DP04Girl.m */; };
 		B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDC422D5B58D0060F9EC /* DP04Pursuit.m */; };
+		B156DDCC22D8C0D10060F9EC /* DP05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDCB22D8C0D10060F9EC /* DP05ViewController.m */; };
+		B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDD322D8C1820060F9EC /* DP05OperationAdd.m */; };
+		B156DDD722D8C1890060F9EC /* DP05OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDD622D8C1890060F9EC /* DP05OperationSub.m */; };
+		B156DDDA22D8C1930060F9EC /* DP05OperationMul.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDD922D8C1930060F9EC /* DP05OperationMul.m */; };
+		B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDDC22D8C19B0060F9EC /* DP05OperationDiv.m */; };
+		B156DDE422D8C2040060F9EC /* DP05OperatonAddFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDE322D8C2040060F9EC /* DP05OperatonAddFactory.m */; };
+		B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDE622D8C20E0060F9EC /* DP05OperatonSubFactory.m */; };
+		B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDE922D8C2180060F9EC /* DP05OperatonMulFactory.m */; };
+		B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDEC22D8C2310060F9EC /* DP05OperatonDivFactory.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -140,6 +149,26 @@
 		B156DDC322D5B58D0060F9EC /* DP04Pursuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Pursuit.h; sourceTree = "<group>"; };
 		B156DDC422D5B58D0060F9EC /* DP04Pursuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP04Pursuit.m; sourceTree = "<group>"; };
 		B156DDC622D5B5D80060F9EC /* DP04Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP04Base.h; sourceTree = "<group>"; };
+		B156DDCA22D8C0D10060F9EC /* DP05ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05ViewController.h; sourceTree = "<group>"; };
+		B156DDCB22D8C0D10060F9EC /* DP05ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05ViewController.m; sourceTree = "<group>"; };
+		B156DDCE22D8C1460060F9EC /* DP05OperationBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationBase.h; sourceTree = "<group>"; };
+		B156DDD222D8C1820060F9EC /* DP05OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationAdd.h; sourceTree = "<group>"; };
+		B156DDD322D8C1820060F9EC /* DP05OperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperationAdd.m; sourceTree = "<group>"; };
+		B156DDD522D8C1890060F9EC /* DP05OperationSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationSub.h; sourceTree = "<group>"; };
+		B156DDD622D8C1890060F9EC /* DP05OperationSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperationSub.m; sourceTree = "<group>"; };
+		B156DDD822D8C1930060F9EC /* DP05OperationMul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationMul.h; sourceTree = "<group>"; };
+		B156DDD922D8C1930060F9EC /* DP05OperationMul.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperationMul.m; sourceTree = "<group>"; };
+		B156DDDB22D8C19B0060F9EC /* DP05OperationDiv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationDiv.h; sourceTree = "<group>"; };
+		B156DDDC22D8C19B0060F9EC /* DP05OperationDiv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperationDiv.m; sourceTree = "<group>"; };
+		B156DDE122D8C1D70060F9EC /* DP05OperationFactoryBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperationFactoryBase.h; sourceTree = "<group>"; };
+		B156DDE222D8C2040060F9EC /* DP05OperatonAddFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperatonAddFactory.h; sourceTree = "<group>"; };
+		B156DDE322D8C2040060F9EC /* DP05OperatonAddFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonAddFactory.m; sourceTree = "<group>"; };
+		B156DDE522D8C20E0060F9EC /* DP05OperatonSubFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperatonSubFactory.h; sourceTree = "<group>"; };
+		B156DDE622D8C20E0060F9EC /* DP05OperatonSubFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonSubFactory.m; sourceTree = "<group>"; };
+		B156DDE822D8C2180060F9EC /* DP05OperatonMulFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperatonMulFactory.h; sourceTree = "<group>"; };
+		B156DDE922D8C2180060F9EC /* DP05OperatonMulFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonMulFactory.m; sourceTree = "<group>"; };
+		B156DDEB22D8C2310060F9EC /* DP05OperatonDivFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperatonDivFactory.h; sourceTree = "<group>"; };
+		B156DDEC22D8C2310060F9EC /* DP05OperatonDivFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonDivFactory.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -451,6 +480,26 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D3322BB399800C039B4 /* 工厂方法模式.png */,
+				B156DDCA22D8C0D10060F9EC /* DP05ViewController.h */,
+				B156DDCB22D8C0D10060F9EC /* DP05ViewController.m */,
+				B156DDCE22D8C1460060F9EC /* DP05OperationBase.h */,
+				B156DDD222D8C1820060F9EC /* DP05OperationAdd.h */,
+				B156DDD322D8C1820060F9EC /* DP05OperationAdd.m */,
+				B156DDD522D8C1890060F9EC /* DP05OperationSub.h */,
+				B156DDD622D8C1890060F9EC /* DP05OperationSub.m */,
+				B156DDD822D8C1930060F9EC /* DP05OperationMul.h */,
+				B156DDD922D8C1930060F9EC /* DP05OperationMul.m */,
+				B156DDDB22D8C19B0060F9EC /* DP05OperationDiv.h */,
+				B156DDDC22D8C19B0060F9EC /* DP05OperationDiv.m */,
+				B156DDE122D8C1D70060F9EC /* DP05OperationFactoryBase.h */,
+				B156DDE222D8C2040060F9EC /* DP05OperatonAddFactory.h */,
+				B156DDE322D8C2040060F9EC /* DP05OperatonAddFactory.m */,
+				B156DDE522D8C20E0060F9EC /* DP05OperatonSubFactory.h */,
+				B156DDE622D8C20E0060F9EC /* DP05OperatonSubFactory.m */,
+				B156DDE822D8C2180060F9EC /* DP05OperatonMulFactory.h */,
+				B156DDE922D8C2180060F9EC /* DP05OperatonMulFactory.m */,
+				B156DDEB22D8C2310060F9EC /* DP05OperatonDivFactory.h */,
+				B156DDEC22D8C2310060F9EC /* DP05OperatonDivFactory.m */,
 			);
 			path = "DP05工厂";
 			sourceTree = "<group>";
@@ -849,7 +898,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */,
+				B156DDE422D8C2040060F9EC /* DP05OperatonAddFactory.m in Sources */,
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
+				B156DDDA22D8C1930060F9EC /* DP05OperationMul.m in Sources */,
 				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,
 				B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */,
@@ -865,16 +916,23 @@
 				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
 				B156DD8022CC533E0060F9EC /* DPModel.m in Sources */,
 				DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */,
+				B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */,
+				B156DDD722D8C1890060F9EC /* DP05OperationSub.m in Sources */,
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
+				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
+				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
 				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
+				B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
+				B156DDCC22D8C0D10060F9EC /* DP05ViewController.m in Sources */,
 				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
+				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,

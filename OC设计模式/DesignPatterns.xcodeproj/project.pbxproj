@@ -42,6 +42,10 @@
 		B156DE0022D9C8C80060F9EC /* Valunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDFF22D9C8C80060F9EC /* Valunteer.m */; };
 		B156DE0622D9C93D0060F9EC /* UnderGraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0522D9C93D0060F9EC /* UnderGraduateFactory.m */; };
 		B156DE0922D9C94F0060F9EC /* ValunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0822D9C94F0060F9EC /* ValunteerFactory.m */; };
+		B156DE0D22D9D0560060F9EC /* DP06ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0C22D9D0560060F9EC /* DP06ViewController.m */; };
+		B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0F22D9D1780060F9EC /* TestPaper.m */; };
+		B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1222D9D18F0060F9EC /* TestPaperA.m */; };
+		B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1522D9D19B0060F9EC /* TestPaperB.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -193,6 +197,14 @@
 		B156DE0722D9C94F0060F9EC /* ValunteerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValunteerFactory.h; sourceTree = "<group>"; };
 		B156DE0822D9C94F0060F9EC /* ValunteerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValunteerFactory.m; sourceTree = "<group>"; };
 		B156DE0A22D9C9930060F9EC /* LeiFengFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiFengFactoryProtocol.h; sourceTree = "<group>"; };
+		B156DE0B22D9D0560060F9EC /* DP06ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP06ViewController.h; sourceTree = "<group>"; };
+		B156DE0C22D9D0560060F9EC /* DP06ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP06ViewController.m; sourceTree = "<group>"; };
+		B156DE0E22D9D1780060F9EC /* TestPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
+		B156DE0F22D9D1780060F9EC /* TestPaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
+		B156DE1122D9D18F0060F9EC /* TestPaperA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperA.h; sourceTree = "<group>"; };
+		B156DE1222D9D18F0060F9EC /* TestPaperA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperA.m; sourceTree = "<group>"; };
+		B156DE1422D9D19B0060F9EC /* TestPaperB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperB.h; sourceTree = "<group>"; };
+		B156DE1522D9D19B0060F9EC /* TestPaperB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperB.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -614,6 +626,14 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D4522BB399800C039B4 /* 模板方法模式.png */,
+				B156DE0B22D9D0560060F9EC /* DP06ViewController.h */,
+				B156DE0C22D9D0560060F9EC /* DP06ViewController.m */,
+				B156DE0E22D9D1780060F9EC /* TestPaper.h */,
+				B156DE0F22D9D1780060F9EC /* TestPaper.m */,
+				B156DE1122D9D18F0060F9EC /* TestPaperA.h */,
+				B156DE1222D9D18F0060F9EC /* TestPaperA.m */,
+				B156DE1422D9D19B0060F9EC /* TestPaperB.h */,
+				B156DE1522D9D19B0060F9EC /* TestPaperB.m */,
 			);
 			path = "DP06模板";
 			sourceTree = "<group>";
@@ -962,6 +982,7 @@
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
 				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
@@ -972,6 +993,7 @@
 				B156DDD722D8C1890060F9EC /* DP05OperationSub.m in Sources */,
 				B156DE0022D9C8C80060F9EC /* Valunteer.m in Sources */,
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
+				B156DE0D22D9D0560060F9EC /* DP06ViewController.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
@@ -980,7 +1002,9 @@
 				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
 				B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */,
+				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
+				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
 				B156DDCC22D8C0D10060F9EC /* DP05ViewController.m in Sources */,
 				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,

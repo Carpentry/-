@@ -48,6 +48,9 @@
     DPModel *model5 = [[DPModel alloc] init];
     model5.title = @"原型";
     [self.dataArray addObject:model5];
+    DPModel *model6 = [[DPModel alloc] init];
+    model6.title = @"模板";
+    [self.dataArray addObject:model6];
     [self.tableView reloadData];
 }
 

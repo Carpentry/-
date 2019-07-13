@@ -52,6 +52,10 @@
 		B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2122D9D6400060F9EC /* DP07SubSystemC.m */; };
 		B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2422D9D6490060F9EC /* DP07SubSystemD.m */; };
 		B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2722D9D6620060F9EC /* DP07Facade.m */; };
+		B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2A22D9E27E0060F9EC /* DP08ViewController.m */; };
+		B156DE2E22D9E2B70060F9EC /* PersonBuliderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2D22D9E2B70060F9EC /* PersonBuliderDirector.m */; };
+		B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE3122D9E3190060F9EC /* PersonFatBuilder.m */; };
+		B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE3422D9E32A0060F9EC /* PersonThinBuilder.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -223,6 +227,15 @@
 		B156DE2422D9D6490060F9EC /* DP07SubSystemD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07SubSystemD.m; sourceTree = "<group>"; };
 		B156DE2622D9D6620060F9EC /* DP07Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07Facade.h; sourceTree = "<group>"; };
 		B156DE2722D9D6620060F9EC /* DP07Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07Facade.m; sourceTree = "<group>"; };
+		B156DE2922D9E27E0060F9EC /* DP08ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP08ViewController.h; sourceTree = "<group>"; };
+		B156DE2A22D9E27E0060F9EC /* DP08ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP08ViewController.m; sourceTree = "<group>"; };
+		B156DE2C22D9E2B70060F9EC /* PersonBuliderDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuliderDirector.h; sourceTree = "<group>"; };
+		B156DE2D22D9E2B70060F9EC /* PersonBuliderDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonBuliderDirector.m; sourceTree = "<group>"; };
+		B156DE2F22D9E2F90060F9EC /* PersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		B156DE3022D9E3190060F9EC /* PersonFatBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFatBuilder.h; sourceTree = "<group>"; };
+		B156DE3122D9E3190060F9EC /* PersonFatBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
+		B156DE3322D9E32A0060F9EC /* PersonThinBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
+		B156DE3422D9E32A0060F9EC /* PersonThinBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -543,6 +556,15 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D3122BB399800C039B4 /* 建造者模式.png */,
+				B156DE2922D9E27E0060F9EC /* DP08ViewController.h */,
+				B156DE2A22D9E27E0060F9EC /* DP08ViewController.m */,
+				B156DE2C22D9E2B70060F9EC /* PersonBuliderDirector.h */,
+				B156DE2D22D9E2B70060F9EC /* PersonBuliderDirector.m */,
+				B156DE2F22D9E2F90060F9EC /* PersonBuilder.h */,
+				B156DE3022D9E3190060F9EC /* PersonFatBuilder.h */,
+				B156DE3122D9E3190060F9EC /* PersonFatBuilder.m */,
+				B156DE3322D9E32A0060F9EC /* PersonThinBuilder.h */,
+				B156DE3422D9E32A0060F9EC /* PersonThinBuilder.m */,
 			);
 			path = "DP08建造者";
 			sourceTree = "<group>";
@@ -999,6 +1021,7 @@
 				DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */,
 				B156DDE422D8C2040060F9EC /* DP05OperatonAddFactory.m in Sources */,
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
+				B156DE2E22D9E2B70060F9EC /* PersonBuliderDirector.m in Sources */,
 				B156DDDA22D8C1930060F9EC /* DP05OperationMul.m in Sources */,
 				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,
@@ -1026,9 +1049,11 @@
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
 				B156DE0D22D9D0560060F9EC /* DP06ViewController.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
+				B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */,
 				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
+				B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */,
 				B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */,
 				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
@@ -1038,6 +1063,7 @@
 				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
+				B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */,
 				B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */,
 				B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,

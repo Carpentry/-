@@ -46,6 +46,12 @@
 		B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0F22D9D1780060F9EC /* TestPaper.m */; };
 		B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1222D9D18F0060F9EC /* TestPaperA.m */; };
 		B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1522D9D19B0060F9EC /* TestPaperB.m */; };
+		B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1822D9D5AD0060F9EC /* DP07ViewController.m */; };
+		B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1B22D9D62D0060F9EC /* DP07SubSystemA.m */; };
+		B156DE1F22D9D6380060F9EC /* DP07SubSystemB.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE1E22D9D6380060F9EC /* DP07SubSystemB.m */; };
+		B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2122D9D6400060F9EC /* DP07SubSystemC.m */; };
+		B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2422D9D6490060F9EC /* DP07SubSystemD.m */; };
+		B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2722D9D6620060F9EC /* DP07Facade.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -205,6 +211,18 @@
 		B156DE1222D9D18F0060F9EC /* TestPaperA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperA.m; sourceTree = "<group>"; };
 		B156DE1422D9D19B0060F9EC /* TestPaperB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperB.h; sourceTree = "<group>"; };
 		B156DE1522D9D19B0060F9EC /* TestPaperB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperB.m; sourceTree = "<group>"; };
+		B156DE1722D9D5AD0060F9EC /* DP07ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07ViewController.h; sourceTree = "<group>"; };
+		B156DE1822D9D5AD0060F9EC /* DP07ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07ViewController.m; sourceTree = "<group>"; };
+		B156DE1A22D9D62D0060F9EC /* DP07SubSystemA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07SubSystemA.h; sourceTree = "<group>"; };
+		B156DE1B22D9D62D0060F9EC /* DP07SubSystemA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07SubSystemA.m; sourceTree = "<group>"; };
+		B156DE1D22D9D6380060F9EC /* DP07SubSystemB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07SubSystemB.h; sourceTree = "<group>"; };
+		B156DE1E22D9D6380060F9EC /* DP07SubSystemB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07SubSystemB.m; sourceTree = "<group>"; };
+		B156DE2022D9D6400060F9EC /* DP07SubSystemC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07SubSystemC.h; sourceTree = "<group>"; };
+		B156DE2122D9D6400060F9EC /* DP07SubSystemC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07SubSystemC.m; sourceTree = "<group>"; };
+		B156DE2322D9D6490060F9EC /* DP07SubSystemD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07SubSystemD.h; sourceTree = "<group>"; };
+		B156DE2422D9D6490060F9EC /* DP07SubSystemD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07SubSystemD.m; sourceTree = "<group>"; };
+		B156DE2622D9D6620060F9EC /* DP07Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP07Facade.h; sourceTree = "<group>"; };
+		B156DE2722D9D6620060F9EC /* DP07Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP07Facade.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -642,6 +660,18 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D4722BB399800C039B4 /* 外观模式.png */,
+				B156DE1722D9D5AD0060F9EC /* DP07ViewController.h */,
+				B156DE1822D9D5AD0060F9EC /* DP07ViewController.m */,
+				B156DE1A22D9D62D0060F9EC /* DP07SubSystemA.h */,
+				B156DE1B22D9D62D0060F9EC /* DP07SubSystemA.m */,
+				B156DE1D22D9D6380060F9EC /* DP07SubSystemB.h */,
+				B156DE1E22D9D6380060F9EC /* DP07SubSystemB.m */,
+				B156DE2022D9D6400060F9EC /* DP07SubSystemC.h */,
+				B156DE2122D9D6400060F9EC /* DP07SubSystemC.m */,
+				B156DE2322D9D6490060F9EC /* DP07SubSystemD.h */,
+				B156DE2422D9D6490060F9EC /* DP07SubSystemD.m */,
+				B156DE2622D9D6620060F9EC /* DP07Facade.h */,
+				B156DE2722D9D6620060F9EC /* DP07Facade.m */,
 			);
 			path = "DP07外观";
 			sourceTree = "<group>";
@@ -982,6 +1012,7 @@
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */,
 				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
@@ -995,8 +1026,10 @@
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
 				B156DE0D22D9D0560060F9EC /* DP06ViewController.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
+				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
+				B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */,
 				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
 				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
@@ -1005,12 +1038,15 @@
 				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
+				B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */,
+				B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
 				B156DDCC22D8C0D10060F9EC /* DP05ViewController.m in Sources */,
 				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
+				B156DE1F22D9D6380060F9EC /* DP07SubSystemB.m in Sources */,
 				B156DE0622D9C93D0060F9EC /* UnderGraduateFactory.m in Sources */,
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */,

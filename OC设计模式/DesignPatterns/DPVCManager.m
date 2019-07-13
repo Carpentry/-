@@ -15,6 +15,8 @@
 #import "DP05ViewController.h"
 #import "DP24ViewController.h"
 #import "DP06ViewController.h"
+#import "DP07ViewController.h"
+
 
 
 
@@ -53,7 +55,10 @@
         case 6:
             vc = [[DP06ViewController alloc] init];
             break;
-            
+        case 7:
+            vc = [[DP07ViewController alloc] init];
+            break;
+
         default:
             break;
     }

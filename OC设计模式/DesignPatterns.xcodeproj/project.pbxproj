@@ -35,6 +35,13 @@
 		B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDE622D8C20E0060F9EC /* DP05OperatonSubFactory.m */; };
 		B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDE922D8C2180060F9EC /* DP05OperatonMulFactory.m */; };
 		B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDEC22D8C2310060F9EC /* DP05OperatonDivFactory.m */; };
+		B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDF022D9BC040060F9EC /* DP24ViewController.m */; };
+		B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDF422D9BD7F0060F9EC /* Dot.m */; };
+		B156DDF822D9BD920060F9EC /* Verter.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDF722D9BD920060F9EC /* Verter.m */; };
+		B156DDFD22D9C7D40060F9EC /* UnderGraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDFC22D9C7D40060F9EC /* UnderGraduate.m */; };
+		B156DE0022D9C8C80060F9EC /* Valunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DDFF22D9C8C80060F9EC /* Valunteer.m */; };
+		B156DE0622D9C93D0060F9EC /* UnderGraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0522D9C93D0060F9EC /* UnderGraduateFactory.m */; };
+		B156DE0922D9C94F0060F9EC /* ValunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE0822D9C94F0060F9EC /* ValunteerFactory.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -169,6 +176,23 @@
 		B156DDE922D8C2180060F9EC /* DP05OperatonMulFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonMulFactory.m; sourceTree = "<group>"; };
 		B156DDEB22D8C2310060F9EC /* DP05OperatonDivFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP05OperatonDivFactory.h; sourceTree = "<group>"; };
 		B156DDEC22D8C2310060F9EC /* DP05OperatonDivFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP05OperatonDivFactory.m; sourceTree = "<group>"; };
+		B156DDEF22D9BC040060F9EC /* DP24ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP24ViewController.h; sourceTree = "<group>"; };
+		B156DDF022D9BC040060F9EC /* DP24ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP24ViewController.m; sourceTree = "<group>"; };
+		B156DDF222D9BC390060F9EC /* Mark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		B156DDF322D9BD7F0060F9EC /* Dot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dot.h; sourceTree = "<group>"; };
+		B156DDF422D9BD7F0060F9EC /* Dot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
+		B156DDF622D9BD920060F9EC /* Verter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Verter.h; sourceTree = "<group>"; };
+		B156DDF722D9BD920060F9EC /* Verter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Verter.m; sourceTree = "<group>"; };
+		B156DDFA22D9C7730060F9EC /* LeiFengProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiFengProtocol.h; sourceTree = "<group>"; };
+		B156DDFB22D9C7D40060F9EC /* UnderGraduate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderGraduate.h; sourceTree = "<group>"; };
+		B156DDFC22D9C7D40060F9EC /* UnderGraduate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderGraduate.m; sourceTree = "<group>"; };
+		B156DDFE22D9C8C80060F9EC /* Valunteer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Valunteer.h; sourceTree = "<group>"; };
+		B156DDFF22D9C8C80060F9EC /* Valunteer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Valunteer.m; sourceTree = "<group>"; };
+		B156DE0422D9C93D0060F9EC /* UnderGraduateFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderGraduateFactory.h; sourceTree = "<group>"; };
+		B156DE0522D9C93D0060F9EC /* UnderGraduateFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderGraduateFactory.m; sourceTree = "<group>"; };
+		B156DE0722D9C94F0060F9EC /* ValunteerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValunteerFactory.h; sourceTree = "<group>"; };
+		B156DE0822D9C94F0060F9EC /* ValunteerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValunteerFactory.m; sourceTree = "<group>"; };
+		B156DE0A22D9C9930060F9EC /* LeiFengFactoryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiFengFactoryProtocol.h; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -284,6 +308,23 @@
 				ED71BBFF853A5EDDC746C0C0 /* libPods-DesignPatternsUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B156DDEE22D9ACD40060F9EC /* LeiFeng */ = {
+			isa = PBXGroup;
+			children = (
+				B156DDFA22D9C7730060F9EC /* LeiFengProtocol.h */,
+				B156DDFB22D9C7D40060F9EC /* UnderGraduate.h */,
+				B156DDFC22D9C7D40060F9EC /* UnderGraduate.m */,
+				B156DDFE22D9C8C80060F9EC /* Valunteer.h */,
+				B156DDFF22D9C8C80060F9EC /* Valunteer.m */,
+				B156DE0A22D9C9930060F9EC /* LeiFengFactoryProtocol.h */,
+				B156DE0422D9C93D0060F9EC /* UnderGraduateFactory.h */,
+				B156DE0522D9C93D0060F9EC /* UnderGraduateFactory.m */,
+				B156DE0722D9C94F0060F9EC /* ValunteerFactory.h */,
+				B156DE0822D9C94F0060F9EC /* ValunteerFactory.m */,
+			);
+			path = LeiFeng;
 			sourceTree = "<group>";
 		};
 		B1B39CE422BB30C400C039B4 = {
@@ -479,6 +520,7 @@
 		B1B39D3222BB399800C039B4 /* DP05工厂 */ = {
 			isa = PBXGroup;
 			children = (
+				B156DDEE22D9ACD40060F9EC /* LeiFeng */,
 				B1B39D3322BB399800C039B4 /* 工厂方法模式.png */,
 				B156DDCA22D8C0D10060F9EC /* DP05ViewController.h */,
 				B156DDCB22D8C0D10060F9EC /* DP05ViewController.m */,
@@ -627,6 +669,13 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D4F22BB399900C039B4 /* 原型模式.png */,
+				B156DDEF22D9BC040060F9EC /* DP24ViewController.h */,
+				B156DDF022D9BC040060F9EC /* DP24ViewController.m */,
+				B156DDF222D9BC390060F9EC /* Mark.h */,
+				B156DDF322D9BD7F0060F9EC /* Dot.h */,
+				B156DDF422D9BD7F0060F9EC /* Dot.m */,
+				B156DDF622D9BD920060F9EC /* Verter.h */,
+				B156DDF722D9BD920060F9EC /* Verter.m */,
 			);
 			path = "DP24原型";
 			sourceTree = "<group>";
@@ -911,13 +960,17 @@
 				B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */,
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
+				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
 				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
+				B156DE0922D9C94F0060F9EC /* ValunteerFactory.m in Sources */,
 				B156DD8022CC533E0060F9EC /* DPModel.m in Sources */,
 				DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */,
 				B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */,
 				B156DDD722D8C1890060F9EC /* DP05OperationSub.m in Sources */,
+				B156DE0022D9C8C80060F9EC /* Valunteer.m in Sources */,
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
@@ -934,7 +987,10 @@
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
+				B156DE0622D9C93D0060F9EC /* UnderGraduateFactory.m in Sources */,
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
+				B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */,
+				B156DDFD22D9C7D40060F9EC /* UnderGraduate.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,
 				DBAA000222D037E60021148C /* DP02CashReturn.m in Sources */,
 				DB920A2922D24D6000A83EBB /* DP03Sneakers.m in Sources */,

@@ -45,6 +45,9 @@
     DPModel *model4 = [[DPModel alloc] init];
     model4.title = @"工厂";
     [self.dataArray addObject:model4];
+    DPModel *model5 = [[DPModel alloc] init];
+    model5.title = @"原型";
+    [self.dataArray addObject:model5];
     [self.tableView reloadData];
 }
 

@@ -17,8 +17,21 @@
 #import "DP06ViewController.h"
 #import "DP07ViewController.h"
 #import "DP08ViewController.h"
-
-
+#import "DP09ViewController.h"
+#import "DP10ViewController.h"
+#import "DP11ViewController.h"
+#import "DP12ViewController.h"
+#import "DP13ViewController.h"
+#import "DP14ViewController.h"
+#import "DP15ViewController.h"
+#import "DP16ViewController.h"
+#import "DP17ViewController.h"
+#import "DP18ViewController.h"
+#import "DP19ViewController.h"
+#import "DP20ViewController.h"
+#import "DP21ViewController.h"
+#import "DP22ViewController.h"
+#import "DP23ViewController.h"
 
 @implementation DPVCManager
 
@@ -60,6 +73,51 @@
             break;
         case 8:
             vc = [[DP08ViewController alloc] init];
+            break;
+        case 9:
+            vc = [[DP09ViewController alloc] init];
+            break;
+        case 10:
+            vc = [[DP10ViewController alloc] init];
+            break;
+        case 11:
+            vc = [[DP11ViewController alloc] init];
+            break;
+        case 12:
+            vc = [[DP12ViewController alloc] init];
+            break;
+        case 13:
+            vc = [[DP13ViewController alloc] init];
+            break;
+        case 14:
+            vc = [[DP14ViewController alloc] init];
+            break;
+        case 15:
+            vc = [[DP15ViewController alloc] init];
+            break;
+        case 16:
+            vc = [[DP16ViewController alloc] init];
+            break;
+        case 17:
+            vc = [[DP17ViewController alloc] init];
+            break;
+        case 18:
+            vc = [[DP18ViewController alloc] init];
+            break;
+        case 19:
+            vc = [[DP19ViewController alloc] init];
+            break;
+        case 20:
+            vc = [[DP20ViewController alloc] init];
+            break;
+        case 21:
+            vc = [[DP21ViewController alloc] init];
+            break;
+        case 22:
+            vc = [[DP22ViewController alloc] init];
+            break;
+        case 23:
+            vc = [[DP23ViewController alloc] init];
             break;
         default:
             break;

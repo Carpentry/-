@@ -7,7 +7,14 @@
 //
 
 #import "DP12ViewController.h"
+#import "DP12Player.h"
+#import "DP12Forward.h"
+#import "DP12Center.h"
+#import "DP12Guard.h"
+#import "DP12Translator.h"
 
+
+typedef id<DP12Player> Player;
 @interface DP12ViewController ()
 
 @end
@@ -16,7 +23,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    id<DP12Player> player = [DP12Forward new];
+    player.name = @"lyl";
+    [player attack];
+    
+    Player player1 = [DP12Translator new];
+    player1.name = @"李";
+    [player1 attack];
+    
 }
 
 /*

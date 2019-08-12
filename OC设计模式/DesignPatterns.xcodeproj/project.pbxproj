@@ -101,6 +101,7 @@
 		B18F559C2301B03100F9202D /* DP14ConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F559B2301B03100F9202D /* DP14ConcreteCompany.m */; };
 		B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A12301B05300F9202D /* DP14HRDepartment.m */; };
 		B18F55A52301B06600F9202D /* DP14FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */; };
+		B18F55A82301B91300F9202D /* DP16Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A72301B91300F9202D /* DP16Singleton.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -378,6 +379,8 @@
 		B18F55A12301B05300F9202D /* DP14HRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14HRDepartment.m; sourceTree = "<group>"; };
 		B18F55A32301B06600F9202D /* DP14FinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP14FinanceDepartment.h; sourceTree = "<group>"; };
 		B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14FinanceDepartment.m; sourceTree = "<group>"; };
+		B18F55A62301B91300F9202D /* DP16Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP16Singleton.h; sourceTree = "<group>"; };
+		B18F55A72301B91300F9202D /* DP16Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP16Singleton.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -981,6 +984,8 @@
 				B1B39D4B22BB399800C039B4 /* 单列模式.png */,
 				B18F54C122F7C94800F9202D /* DP16ViewController.h */,
 				B18F54C222F7C94800F9202D /* DP16ViewController.m */,
+				B18F55A62301B91300F9202D /* DP16Singleton.h */,
+				B18F55A72301B91300F9202D /* DP16Singleton.m */,
 			);
 			path = "DP16单例";
 			sourceTree = "<group>";
@@ -1294,6 +1299,7 @@
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
 				B156DE2E22D9E2B70060F9EC /* PersonBuliderDirector.m in Sources */,
 				B156DDDA22D8C1930060F9EC /* DP05OperationMul.m in Sources */,
+				B18F55A82301B91300F9202D /* DP16Singleton.m in Sources */,
 				B18F54D222F7C98B00F9202D /* DP21ViewController.m in Sources */,
 				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,

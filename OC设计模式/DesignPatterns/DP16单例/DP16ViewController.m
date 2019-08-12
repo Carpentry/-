@@ -7,6 +7,7 @@
 //
 
 #import "DP16ViewController.h"
+#import "DP16Singleton.h"
 
 @interface DP16ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [DP16Singleton singleton];
 }
 
 /*

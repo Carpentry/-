@@ -7,7 +7,8 @@
 //
 
 #import "DP11ViewController.h"
-
+#import "DP11Work.h"
+#import "DP11NoonState.h"
 @interface DP11ViewController ()
 
 @end
@@ -16,17 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    DP11Work *work = [DP11Work new];
+    work.hour = 10;
+    [work writeProgram];
+    work.state = [DP11NoonState new];
+    [work writeProgram];
+    work.hour = 15;
+    [work writeProgram];
+    work.hour = 18;
+    [work writeProgram];
+//    work.isFinished = YES;
+    work.hour = 22;
+    [work writeProgram];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

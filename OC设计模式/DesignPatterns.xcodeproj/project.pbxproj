@@ -83,6 +83,13 @@
 		B18F555F2301048200F9202D /* DP10AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F555E2301048200F9202D /* DP10AccessUser.m */; };
 		B18F55622301049E00F9202D /* DP10SqlServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55612301049E00F9202D /* DP10SqlServerDepartment.m */; };
 		B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5564230104B200F9202D /* DP10AccessDepartment.m */; };
+		B18F5568230111AD00F9202D /* DP11Work.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5567230111AD00F9202D /* DP11Work.m */; };
+		B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F556B2301129900F9202D /* DP11ForenoonState.m */; };
+		B18F556F230112A800F9202D /* DP11NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F556E230112A800F9202D /* DP11NoonState.m */; };
+		B18F5572230112B600F9202D /* DP11AfternootState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5571230112B600F9202D /* DP11AfternootState.m */; };
+		B18F5575230112CA00F9202D /* DP11EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5574230112CA00F9202D /* DP11EveningState.m */; };
+		B18F5578230112D700F9202D /* DP11SleepState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5577230112D700F9202D /* DP11SleepState.m */; };
+		B18F557B230112EB00F9202D /* DP11RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F557A230112EB00F9202D /* DP11RestState.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -321,6 +328,21 @@
 		B18F55612301049E00F9202D /* DP10SqlServerDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SqlServerDepartment.m; sourceTree = "<group>"; };
 		B18F5563230104B200F9202D /* DP10AccessDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10AccessDepartment.h; sourceTree = "<group>"; };
 		B18F5564230104B200F9202D /* DP10AccessDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10AccessDepartment.m; sourceTree = "<group>"; };
+		B18F5566230111AD00F9202D /* DP11Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11Work.h; sourceTree = "<group>"; };
+		B18F5567230111AD00F9202D /* DP11Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11Work.m; sourceTree = "<group>"; };
+		B18F5569230111CF00F9202D /* DP11State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11State.h; sourceTree = "<group>"; };
+		B18F556A2301129900F9202D /* DP11ForenoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11ForenoonState.h; sourceTree = "<group>"; };
+		B18F556B2301129900F9202D /* DP11ForenoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11ForenoonState.m; sourceTree = "<group>"; };
+		B18F556D230112A800F9202D /* DP11NoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11NoonState.h; sourceTree = "<group>"; };
+		B18F556E230112A800F9202D /* DP11NoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11NoonState.m; sourceTree = "<group>"; };
+		B18F5570230112B600F9202D /* DP11AfternootState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11AfternootState.h; sourceTree = "<group>"; };
+		B18F5571230112B600F9202D /* DP11AfternootState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11AfternootState.m; sourceTree = "<group>"; };
+		B18F5573230112CA00F9202D /* DP11EveningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11EveningState.h; sourceTree = "<group>"; };
+		B18F5574230112CA00F9202D /* DP11EveningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11EveningState.m; sourceTree = "<group>"; };
+		B18F5576230112D700F9202D /* DP11SleepState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11SleepState.h; sourceTree = "<group>"; };
+		B18F5577230112D700F9202D /* DP11SleepState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11SleepState.m; sourceTree = "<group>"; };
+		B18F5579230112EB00F9202D /* DP11RestState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP11RestState.h; sourceTree = "<group>"; };
+		B18F557A230112EB00F9202D /* DP11RestState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP11RestState.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -671,6 +693,21 @@
 				B1B39D2D22BB399800C039B4 /* 状态模式.png */,
 				B18F54B222F7C91700F9202D /* DP11ViewController.h */,
 				B18F54B322F7C91700F9202D /* DP11ViewController.m */,
+				B18F5566230111AD00F9202D /* DP11Work.h */,
+				B18F5567230111AD00F9202D /* DP11Work.m */,
+				B18F5569230111CF00F9202D /* DP11State.h */,
+				B18F556A2301129900F9202D /* DP11ForenoonState.h */,
+				B18F556B2301129900F9202D /* DP11ForenoonState.m */,
+				B18F556D230112A800F9202D /* DP11NoonState.h */,
+				B18F556E230112A800F9202D /* DP11NoonState.m */,
+				B18F5570230112B600F9202D /* DP11AfternootState.h */,
+				B18F5571230112B600F9202D /* DP11AfternootState.m */,
+				B18F5573230112CA00F9202D /* DP11EveningState.h */,
+				B18F5574230112CA00F9202D /* DP11EveningState.m */,
+				B18F5576230112D700F9202D /* DP11SleepState.h */,
+				B18F5577230112D700F9202D /* DP11SleepState.m */,
+				B18F5579230112EB00F9202D /* DP11RestState.h */,
+				B18F557A230112EB00F9202D /* DP11RestState.m */,
 			);
 			path = "DP11状态";
 			sourceTree = "<group>";
@@ -1219,6 +1256,7 @@
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
 				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
 				B156DE0922D9C94F0060F9EC /* ValunteerFactory.m in Sources */,
+				B18F556F230112A800F9202D /* DP11NoonState.m in Sources */,
 				B156DD8022CC533E0060F9EC /* DPModel.m in Sources */,
 				DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */,
 				B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */,
@@ -1233,10 +1271,12 @@
 				B18F54C022F7C93F00F9202D /* DP15ViewController.m in Sources */,
 				B18F54BD22F7C93600F9202D /* DP14ViewController.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
+				B18F557B230112EB00F9202D /* DP11RestState.m in Sources */,
 				B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */,
 				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
+				B18F5568230111AD00F9202D /* DP11Work.m in Sources */,
 				B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */,
 				B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */,
 				B18F54CF22F7C98100F9202D /* DP20ViewController.m in Sources */,
@@ -1253,6 +1293,7 @@
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
 				B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */,
 				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
+				B18F5575230112CA00F9202D /* DP11EveningState.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
@@ -1267,6 +1308,7 @@
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B18F54D522F7C99500F9202D /* DP22ViewController.m in Sources */,
 				B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */,
+				B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,
@@ -1278,11 +1320,13 @@
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */,
 				B156DDFD22D9C7D40060F9EC /* UnderGraduate.m in Sources */,
+				B18F5572230112B600F9202D /* DP11AfternootState.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,
 				DBAA000222D037E60021148C /* DP02CashReturn.m in Sources */,
 				DB920A2922D24D6000A83EBB /* DP03Sneakers.m in Sources */,
 				B156DDBC22D597A20060F9EC /* DP04ViewController.m in Sources */,
 				B156DD8922CC5C430060F9EC /* DPBaseViewController.m in Sources */,
+				B18F5578230112D700F9202D /* DP11SleepState.m in Sources */,
 				B156DDBF22D5B52B0060F9EC /* DP04Proxy.m in Sources */,
 				B156DDA622CDCBE10060F9EC /* DPConst.m in Sources */,
 				B18F54CC22F7C97600F9202D /* DP19ViewController.m in Sources */,

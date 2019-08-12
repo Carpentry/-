@@ -75,6 +75,14 @@
 		B18F54E122F7D07400F9202D /* DP09SecreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54E022F7D07400F9202D /* DP09SecreteSubject.m */; };
 		B18F54E522F7D13200F9202D /* DP09NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54E422F7D13200F9202D /* DP09NBAObserver.m */; };
 		B18F54E822F7D14700F9202D /* DP09StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54E722F7D14700F9202D /* DP09StockObserver.m */; };
+		B18F554C230100E000F9202D /* DP10SqlServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F554B230100E000F9202D /* DP10SqlServerFactory.m */; };
+		B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F554E230100F600F9202D /* DP10AccessFactory.m */; };
+		B18F5552230101C900F9202D /* DP10SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5551230101C900F9202D /* DP10SQLUser.m */; };
+		B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5554230101D600F9202D /* DP10SQLDepartment.m */; };
+		B18F555C2301046800F9202D /* DP10SqlServerUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F555B2301046800F9202D /* DP10SqlServerUser.m */; };
+		B18F555F2301048200F9202D /* DP10AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F555E2301048200F9202D /* DP10AccessUser.m */; };
+		B18F55622301049E00F9202D /* DP10SqlServerDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55612301049E00F9202D /* DP10SqlServerDepartment.m */; };
+		B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F5564230104B200F9202D /* DP10AccessDepartment.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -294,6 +302,25 @@
 		B18F54E422F7D13200F9202D /* DP09NBAObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09NBAObserver.m; sourceTree = "<group>"; };
 		B18F54E622F7D14700F9202D /* DP09StockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP09StockObserver.h; sourceTree = "<group>"; };
 		B18F54E722F7D14700F9202D /* DP09StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09StockObserver.m; sourceTree = "<group>"; };
+		B18F55412300FF3700F9202D /* DP10User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10User.h; sourceTree = "<group>"; };
+		B18F55442300FF4800F9202D /* DP10Department.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10Department.h; sourceTree = "<group>"; };
+		B18F55472301000E00F9202D /* DP10Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10Factory.h; sourceTree = "<group>"; };
+		B18F554A230100E000F9202D /* DP10SqlServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10SqlServerFactory.h; sourceTree = "<group>"; };
+		B18F554B230100E000F9202D /* DP10SqlServerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SqlServerFactory.m; sourceTree = "<group>"; };
+		B18F554D230100F600F9202D /* DP10AccessFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10AccessFactory.h; sourceTree = "<group>"; };
+		B18F554E230100F600F9202D /* DP10AccessFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10AccessFactory.m; sourceTree = "<group>"; };
+		B18F5550230101C900F9202D /* DP10SQLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10SQLUser.h; sourceTree = "<group>"; };
+		B18F5551230101C900F9202D /* DP10SQLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SQLUser.m; sourceTree = "<group>"; };
+		B18F5553230101D600F9202D /* DP10SQLDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10SQLDepartment.h; sourceTree = "<group>"; };
+		B18F5554230101D600F9202D /* DP10SQLDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SQLDepartment.m; sourceTree = "<group>"; };
+		B18F555A2301046800F9202D /* DP10SqlServerUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10SqlServerUser.h; sourceTree = "<group>"; };
+		B18F555B2301046800F9202D /* DP10SqlServerUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SqlServerUser.m; sourceTree = "<group>"; };
+		B18F555D2301048200F9202D /* DP10AccessUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10AccessUser.h; sourceTree = "<group>"; };
+		B18F555E2301048200F9202D /* DP10AccessUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10AccessUser.m; sourceTree = "<group>"; };
+		B18F55602301049E00F9202D /* DP10SqlServerDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10SqlServerDepartment.h; sourceTree = "<group>"; };
+		B18F55612301049E00F9202D /* DP10SqlServerDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10SqlServerDepartment.m; sourceTree = "<group>"; };
+		B18F5563230104B200F9202D /* DP10AccessDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10AccessDepartment.h; sourceTree = "<group>"; };
+		B18F5564230104B200F9202D /* DP10AccessDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP10AccessDepartment.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -428,6 +455,53 @@
 			path = LeiFeng;
 			sourceTree = "<group>";
 		};
+		B18F55562301022F00F9202D /* 具体操作对象 */ = {
+			isa = PBXGroup;
+			children = (
+				B18F5550230101C900F9202D /* DP10SQLUser.h */,
+				B18F5551230101C900F9202D /* DP10SQLUser.m */,
+				B18F5553230101D600F9202D /* DP10SQLDepartment.h */,
+				B18F5554230101D600F9202D /* DP10SQLDepartment.m */,
+			);
+			path = "具体操作对象";
+			sourceTree = "<group>";
+		};
+		B18F55572301024800F9202D /* 工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				B18F55472301000E00F9202D /* DP10Factory.h */,
+				B18F554A230100E000F9202D /* DP10SqlServerFactory.h */,
+				B18F554B230100E000F9202D /* DP10SqlServerFactory.m */,
+				B18F554D230100F600F9202D /* DP10AccessFactory.h */,
+				B18F554E230100F600F9202D /* DP10AccessFactory.m */,
+			);
+			path = "工厂方法";
+			sourceTree = "<group>";
+		};
+		B18F55582301026600F9202D /* 操作User对象 */ = {
+			isa = PBXGroup;
+			children = (
+				B18F55412300FF3700F9202D /* DP10User.h */,
+				B18F555A2301046800F9202D /* DP10SqlServerUser.h */,
+				B18F555B2301046800F9202D /* DP10SqlServerUser.m */,
+				B18F555D2301048200F9202D /* DP10AccessUser.h */,
+				B18F555E2301048200F9202D /* DP10AccessUser.m */,
+			);
+			path = "操作User对象";
+			sourceTree = "<group>";
+		};
+		B18F55592301027C00F9202D /* 操作Department对象 */ = {
+			isa = PBXGroup;
+			children = (
+				B18F55442300FF4800F9202D /* DP10Department.h */,
+				B18F55602301049E00F9202D /* DP10SqlServerDepartment.h */,
+				B18F55612301049E00F9202D /* DP10SqlServerDepartment.m */,
+				B18F5563230104B200F9202D /* DP10AccessDepartment.h */,
+				B18F5564230104B200F9202D /* DP10AccessDepartment.m */,
+			);
+			path = "操作Department对象";
+			sourceTree = "<group>";
+		};
 		B1B39CE422BB30C400C039B4 = {
 			isa = PBXGroup;
 			children = (
@@ -522,6 +596,10 @@
 		B1B39D2222BB399700C039B4 /* DP10抽象工厂 */ = {
 			isa = PBXGroup;
 			children = (
+				B18F55592301027C00F9202D /* 操作Department对象 */,
+				B18F55582301026600F9202D /* 操作User对象 */,
+				B18F55572301024800F9202D /* 工厂方法 */,
+				B18F55562301022F00F9202D /* 具体操作对象 */,
 				B1B39D2322BB399700C039B4 /* 抽象工厂模式.png */,
 				B18F54AF22F7C90C00F9202D /* DP10ViewController.h */,
 				B18F54B022F7C90C00F9202D /* DP10ViewController.m */,
@@ -1134,6 +1212,7 @@
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				B18F5552230101C900F9202D /* DP10SQLUser.m in Sources */,
 				B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */,
 				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
@@ -1161,18 +1240,24 @@
 				B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */,
 				B156DE2522D9D6490060F9EC /* DP07SubSystemD.m in Sources */,
 				B18F54CF22F7C98100F9202D /* DP20ViewController.m in Sources */,
+				B18F554C230100E000F9202D /* DP10SqlServerFactory.m in Sources */,
 				B18F54D822F7C9A700F9202D /* DP23ViewController.m in Sources */,
 				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				B18F54C922F7C96400F9202D /* DP18ViewController.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
 				B18F54E522F7D13200F9202D /* DP09NBAObserver.m in Sources */,
+				B18F555F2301048200F9202D /* DP10AccessUser.m in Sources */,
 				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
+				B18F55622301049E00F9202D /* DP10SqlServerDepartment.m in Sources */,
+				B18F555C2301046800F9202D /* DP10SqlServerUser.m in Sources */,
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
 				B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */,
 				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
+				B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
 				B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */,
+				B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */,
 				B18F54C322F7C94800F9202D /* DP16ViewController.m in Sources */,
 				B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */,
 				B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */,
@@ -1181,6 +1266,7 @@
 				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B18F54D522F7C99500F9202D /* DP22ViewController.m in Sources */,
+				B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,

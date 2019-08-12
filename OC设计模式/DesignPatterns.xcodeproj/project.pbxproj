@@ -98,6 +98,9 @@
 		B18F55902301A69D00F9202D /* DP13GameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F558F2301A69D00F9202D /* DP13GameRoll.m */; };
 		B18F55932301A6B500F9202D /* DP13GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55922301A6B500F9202D /* DP13GameState.m */; };
 		B18F55962301A6C700F9202D /* DP13StateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55952301A6C700F9202D /* DP13StateManager.m */; };
+		B18F559C2301B03100F9202D /* DP14ConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F559B2301B03100F9202D /* DP14ConcreteCompany.m */; };
+		B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A12301B05300F9202D /* DP14HRDepartment.m */; };
+		B18F55A52301B06600F9202D /* DP14FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -368,6 +371,13 @@
 		B18F55922301A6B500F9202D /* DP13GameState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP13GameState.m; sourceTree = "<group>"; };
 		B18F55942301A6C700F9202D /* DP13StateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP13StateManager.h; sourceTree = "<group>"; };
 		B18F55952301A6C700F9202D /* DP13StateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP13StateManager.m; sourceTree = "<group>"; };
+		B18F55972301AFAF00F9202D /* DP14Company.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP14Company.h; sourceTree = "<group>"; };
+		B18F559A2301B03100F9202D /* DP14ConcreteCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP14ConcreteCompany.h; sourceTree = "<group>"; };
+		B18F559B2301B03100F9202D /* DP14ConcreteCompany.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14ConcreteCompany.m; sourceTree = "<group>"; };
+		B18F55A02301B05300F9202D /* DP14HRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP14HRDepartment.h; sourceTree = "<group>"; };
+		B18F55A12301B05300F9202D /* DP14HRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14HRDepartment.m; sourceTree = "<group>"; };
+		B18F55A32301B06600F9202D /* DP14FinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP14FinanceDepartment.h; sourceTree = "<group>"; };
+		B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14FinanceDepartment.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -855,6 +865,13 @@
 				B1B39D3B22BB399800C039B4 /* 组合模式.png */,
 				B18F54BB22F7C93600F9202D /* DP14ViewController.h */,
 				B18F54BC22F7C93600F9202D /* DP14ViewController.m */,
+				B18F55972301AFAF00F9202D /* DP14Company.h */,
+				B18F559A2301B03100F9202D /* DP14ConcreteCompany.h */,
+				B18F559B2301B03100F9202D /* DP14ConcreteCompany.m */,
+				B18F55A02301B05300F9202D /* DP14HRDepartment.h */,
+				B18F55A12301B05300F9202D /* DP14HRDepartment.m */,
+				B18F55A32301B06600F9202D /* DP14FinanceDepartment.h */,
+				B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */,
 			);
 			path = "DP14组合";
 			sourceTree = "<group>";
@@ -1281,6 +1298,7 @@
 				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,
 				B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */,
+				B18F559C2301B03100F9202D /* DP14ConcreteCompany.m in Sources */,
 				DB920A1022D248C100A83EBB /* DP03Decorator.m in Sources */,
 				DB920A2022D24D0700A83EBB /* DP03PersonDecorator.m in Sources */,
 				B156DDC222D5B53B0060F9EC /* DP04Girl.m in Sources */,
@@ -1361,6 +1379,7 @@
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,
+				B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */,
 				B18F54C622F7C95600F9202D /* DP17ViewController.m in Sources */,
 				B18F54DE22F7D05900F9202D /* DP09Subject.m in Sources */,
 				B156DE1F22D9D6380060F9EC /* DP07SubSystemB.m in Sources */,
@@ -1369,6 +1388,7 @@
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B18F5581230197DC00F9202D /* DP12Forward.m in Sources */,
 				B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */,
+				B18F55A52301B06600F9202D /* DP14FinanceDepartment.m in Sources */,
 				B156DDFD22D9C7D40060F9EC /* UnderGraduate.m in Sources */,
 				B18F5572230112B600F9202D /* DP11AfternootState.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,

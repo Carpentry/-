@@ -7,6 +7,9 @@
 //
 
 #import "DP13ViewController.h"
+#import "DP13GameRoll.h"
+#import "DP13GameState.h"
+#import "DP13StateManager.h"
 
 @interface DP13ViewController ()
 
@@ -16,7 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    DP13GameRoll *roll = [DP13GameRoll new];
+    [roll getState];
+    DP13GameState *state = [roll saveState];
+    DP13StateManager *manager =  [[DP13StateManager alloc] initWithGameState:state];
+    [roll fightBoss];
+    [roll getState];
+    
+    [roll rebackState:manager.state];
+    [roll getState];
 }
 
 /*

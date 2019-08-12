@@ -95,6 +95,9 @@
 		B18F55872301983F00F9202D /* DP12Guard.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55862301983F00F9202D /* DP12Guard.m */; };
 		B18F558A2301985200F9202D /* DPForeignerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55892301985200F9202D /* DPForeignerCenter.m */; };
 		B18F558D23019ADF00F9202D /* DP12Translator.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F558C23019ADF00F9202D /* DP12Translator.m */; };
+		B18F55902301A69D00F9202D /* DP13GameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F558F2301A69D00F9202D /* DP13GameRoll.m */; };
+		B18F55932301A6B500F9202D /* DP13GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55922301A6B500F9202D /* DP13GameState.m */; };
+		B18F55962301A6C700F9202D /* DP13StateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55952301A6C700F9202D /* DP13StateManager.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -359,6 +362,12 @@
 		B18F55892301985200F9202D /* DPForeignerCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPForeignerCenter.m; sourceTree = "<group>"; };
 		B18F558B23019ADF00F9202D /* DP12Translator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP12Translator.h; sourceTree = "<group>"; };
 		B18F558C23019ADF00F9202D /* DP12Translator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP12Translator.m; sourceTree = "<group>"; };
+		B18F558E2301A69D00F9202D /* DP13GameRoll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP13GameRoll.h; sourceTree = "<group>"; };
+		B18F558F2301A69D00F9202D /* DP13GameRoll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP13GameRoll.m; sourceTree = "<group>"; };
+		B18F55912301A6B500F9202D /* DP13GameState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP13GameState.h; sourceTree = "<group>"; };
+		B18F55922301A6B500F9202D /* DP13GameState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP13GameState.m; sourceTree = "<group>"; };
+		B18F55942301A6C700F9202D /* DP13StateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP13StateManager.h; sourceTree = "<group>"; };
+		B18F55952301A6C700F9202D /* DP13StateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP13StateManager.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -820,6 +829,12 @@
 				B1B39D3722BB399800C039B4 /* 备忘录模式.png */,
 				B18F54B822F7C92C00F9202D /* DP13ViewController.h */,
 				B18F54B922F7C92C00F9202D /* DP13ViewController.m */,
+				B18F558E2301A69D00F9202D /* DP13GameRoll.h */,
+				B18F558F2301A69D00F9202D /* DP13GameRoll.m */,
+				B18F55912301A6B500F9202D /* DP13GameState.h */,
+				B18F55922301A6B500F9202D /* DP13GameState.m */,
+				B18F55942301A6C700F9202D /* DP13StateManager.h */,
+				B18F55952301A6C700F9202D /* DP13StateManager.m */,
 			);
 			path = "DP13备忘录";
 			sourceTree = "<group>";
@@ -1286,6 +1301,8 @@
 				B156DE0922D9C94F0060F9EC /* ValunteerFactory.m in Sources */,
 				B18F556F230112A800F9202D /* DP11NoonState.m in Sources */,
 				B156DD8022CC533E0060F9EC /* DPModel.m in Sources */,
+				B18F55962301A6C700F9202D /* DP13StateManager.m in Sources */,
+				B18F55932301A6B500F9202D /* DP13GameState.m in Sources */,
 				DBAA000822D037FD0021148C /* DP02CashNormal.m in Sources */,
 				B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */,
 				B18F5584230197EF00F9202D /* DP12Center.m in Sources */,
@@ -1330,6 +1347,7 @@
 				B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */,
 				B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */,
 				B18F54C322F7C94800F9202D /* DP16ViewController.m in Sources */,
+				B18F55902301A69D00F9202D /* DP13GameRoll.m in Sources */,
 				B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */,
 				B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,

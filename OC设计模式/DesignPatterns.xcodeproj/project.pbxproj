@@ -102,6 +102,10 @@
 		B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A12301B05300F9202D /* DP14HRDepartment.m */; };
 		B18F55A52301B06600F9202D /* DP14FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */; };
 		B18F55A82301B91300F9202D /* DP16Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55A72301B91300F9202D /* DP16Singleton.m */; };
+		B18F55AD23025B1C00F9202D /* DP17PhoneM.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55AC23025B1C00F9202D /* DP17PhoneM.m */; };
+		B18F55B023025B2900F9202D /* DP17PhoneN.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55AF23025B2900F9202D /* DP17PhoneN.m */; };
+		B18F55C2230265FC00F9202D /* DP17Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55C1230265FC00F9202D /* DP17Contact.m */; };
+		B18F55C52302661400F9202D /* DP17Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55C42302661400F9202D /* DP17Game.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -381,6 +385,16 @@
 		B18F55A42301B06600F9202D /* DP14FinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP14FinanceDepartment.m; sourceTree = "<group>"; };
 		B18F55A62301B91300F9202D /* DP16Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP16Singleton.h; sourceTree = "<group>"; };
 		B18F55A72301B91300F9202D /* DP16Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP16Singleton.m; sourceTree = "<group>"; };
+		B18F55A923025AA700F9202D /* DP17PhoneBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17PhoneBrand.h; sourceTree = "<group>"; };
+		B18F55AA23025AF400F9202D /* DP17PhoneSoftware.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17PhoneSoftware.h; sourceTree = "<group>"; };
+		B18F55AB23025B1C00F9202D /* DP17PhoneM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17PhoneM.h; sourceTree = "<group>"; };
+		B18F55AC23025B1C00F9202D /* DP17PhoneM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17PhoneM.m; sourceTree = "<group>"; };
+		B18F55AE23025B2900F9202D /* DP17PhoneN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17PhoneN.h; sourceTree = "<group>"; };
+		B18F55AF23025B2900F9202D /* DP17PhoneN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17PhoneN.m; sourceTree = "<group>"; };
+		B18F55C0230265FC00F9202D /* DP17Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17Contact.h; sourceTree = "<group>"; };
+		B18F55C1230265FC00F9202D /* DP17Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17Contact.m; sourceTree = "<group>"; };
+		B18F55C32302661400F9202D /* DP17Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17Game.h; sourceTree = "<group>"; };
+		B18F55C42302661400F9202D /* DP17Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17Game.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -996,6 +1010,16 @@
 				B1B39D4D22BB399800C039B4 /* 桥接模式.png */,
 				B18F54C422F7C95600F9202D /* DP17ViewController.h */,
 				B18F54C522F7C95600F9202D /* DP17ViewController.m */,
+				B18F55A923025AA700F9202D /* DP17PhoneBrand.h */,
+				B18F55AB23025B1C00F9202D /* DP17PhoneM.h */,
+				B18F55AC23025B1C00F9202D /* DP17PhoneM.m */,
+				B18F55AE23025B2900F9202D /* DP17PhoneN.h */,
+				B18F55AF23025B2900F9202D /* DP17PhoneN.m */,
+				B18F55AA23025AF400F9202D /* DP17PhoneSoftware.h */,
+				B18F55C0230265FC00F9202D /* DP17Contact.h */,
+				B18F55C1230265FC00F9202D /* DP17Contact.m */,
+				B18F55C32302661400F9202D /* DP17Game.h */,
+				B18F55C42302661400F9202D /* DP17Game.m */,
 			);
 			path = "DP17桥接";
 			sourceTree = "<group>";
@@ -1311,6 +1335,7 @@
 				DB920A2322D24D3E00A83EBB /* DP03Tshirts.m in Sources */,
 				B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */,
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
+				B18F55C2230265FC00F9202D /* DP17Contact.m in Sources */,
 				B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */,
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
@@ -1331,11 +1356,14 @@
 				B156DDDD22D8C19B0060F9EC /* DP05OperationDiv.m in Sources */,
 				B18F5584230197EF00F9202D /* DP12Center.m in Sources */,
 				B156DDD722D8C1890060F9EC /* DP05OperationSub.m in Sources */,
+				B18F55C52302661400F9202D /* DP17Game.m in Sources */,
 				B18F54AE22F7C8CB00F9202D /* DP09ViewController.m in Sources */,
 				B156DE0022D9C8C80060F9EC /* Valunteer.m in Sources */,
 				B18F54E822F7D14700F9202D /* DP09StockObserver.m in Sources */,
+				B18F55B023025B2900F9202D /* DP17PhoneN.m in Sources */,
 				B18F54BA22F7C92C00F9202D /* DP13ViewController.m in Sources */,
 				B1B39D0022BB30C600C039B4 /* main.m in Sources */,
+				B18F55AD23025B1C00F9202D /* DP17PhoneM.m in Sources */,
 				B18F54B722F7C92200F9202D /* DP12ViewController.m in Sources */,
 				B156DE0D22D9D0560060F9EC /* DP06ViewController.m in Sources */,
 				B18F54C022F7C93F00F9202D /* DP15ViewController.m in Sources */,

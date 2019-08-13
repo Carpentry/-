@@ -7,6 +7,10 @@
 //
 
 #import "DP17ViewController.h"
+#import "DP17PhoneM.h"
+#import "DP17PhoneN.h"
+#import "DP17Contact.h"
+#import "DP17Game.h"
 
 @interface DP17ViewController ()
 
@@ -16,7 +20,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    DP17PhoneM *m = [DP17PhoneM new];
+    m.software = [DP17Contact new];
+    [m run];
+    
+    DP17PhoneN *n = [DP17PhoneN new];
+    n.software = [DP17Game new];
+    [n run];
 }
 
 /*

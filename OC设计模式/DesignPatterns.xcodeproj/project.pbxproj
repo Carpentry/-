@@ -56,6 +56,11 @@
 		B156DE2E22D9E2B70060F9EC /* PersonBuliderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE2D22D9E2B70060F9EC /* PersonBuliderDirector.m */; };
 		B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE3122D9E3190060F9EC /* PersonFatBuilder.m */; };
 		B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = B156DE3422D9E32A0060F9EC /* PersonThinBuilder.m */; };
+		B18B6BDC23053F500014C7E5 /* DP18RoastedWings.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BDB23053F500014C7E5 /* DP18RoastedWings.m */; };
+		B18B6BDF23053F730014C7E5 /* DP18Kabob.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BDE23053F730014C7E5 /* DP18Kabob.m */; };
+		B18B6BE3230540D40014C7E5 /* DP18Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE2230540D40014C7E5 /* DP18Waiter.m */; };
+		B18B6BE6230540DD0014C7E5 /* DP18Cooker.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE5230540DD0014C7E5 /* DP18Cooker.m */; };
+		B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE8230548FF0014C7E5 /* DP18Barbecue.m */; };
 		B18F54AE22F7C8CB00F9202D /* DP09ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */; };
 		B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B022F7C90C00F9202D /* DP10ViewController.m */; };
 		B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B322F7C91700F9202D /* DP11ViewController.m */; };
@@ -286,6 +291,16 @@
 		B156DE3122D9E3190060F9EC /* PersonFatBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
 		B156DE3322D9E32A0060F9EC /* PersonThinBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
 		B156DE3422D9E32A0060F9EC /* PersonThinBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
+		B18B6BDA23053F500014C7E5 /* DP18RoastedWings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18RoastedWings.h; sourceTree = "<group>"; };
+		B18B6BDB23053F500014C7E5 /* DP18RoastedWings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18RoastedWings.m; sourceTree = "<group>"; };
+		B18B6BDD23053F730014C7E5 /* DP18Kabob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18Kabob.h; sourceTree = "<group>"; };
+		B18B6BDE23053F730014C7E5 /* DP18Kabob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Kabob.m; sourceTree = "<group>"; };
+		B18B6BE1230540D40014C7E5 /* DP18Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18Waiter.h; sourceTree = "<group>"; };
+		B18B6BE2230540D40014C7E5 /* DP18Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Waiter.m; sourceTree = "<group>"; };
+		B18B6BE4230540DD0014C7E5 /* DP18Cooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18Cooker.h; sourceTree = "<group>"; };
+		B18B6BE5230540DD0014C7E5 /* DP18Cooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Cooker.m; sourceTree = "<group>"; };
+		B18B6BE7230548FF0014C7E5 /* DP18Barbecue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18Barbecue.h; sourceTree = "<group>"; };
+		B18B6BE8230548FF0014C7E5 /* DP18Barbecue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Barbecue.m; sourceTree = "<group>"; };
 		B18F54AC22F7C8CB00F9202D /* DP09ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP09ViewController.h; sourceTree = "<group>"; };
 		B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09ViewController.m; sourceTree = "<group>"; };
 		B18F54AF22F7C90C00F9202D /* DP10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10ViewController.h; sourceTree = "<group>"; };
@@ -735,6 +750,16 @@
 				B1B39D2B22BB399800C039B4 /* 命令模式.png */,
 				B18F54C722F7C96400F9202D /* DP18ViewController.h */,
 				B18F54C822F7C96400F9202D /* DP18ViewController.m */,
+				B18B6BDA23053F500014C7E5 /* DP18RoastedWings.h */,
+				B18B6BDB23053F500014C7E5 /* DP18RoastedWings.m */,
+				B18B6BE7230548FF0014C7E5 /* DP18Barbecue.h */,
+				B18B6BE8230548FF0014C7E5 /* DP18Barbecue.m */,
+				B18B6BDD23053F730014C7E5 /* DP18Kabob.h */,
+				B18B6BDE23053F730014C7E5 /* DP18Kabob.m */,
+				B18B6BE1230540D40014C7E5 /* DP18Waiter.h */,
+				B18B6BE2230540D40014C7E5 /* DP18Waiter.m */,
+				B18B6BE4230540DD0014C7E5 /* DP18Cooker.h */,
+				B18B6BE5230540DD0014C7E5 /* DP18Cooker.m */,
 			);
 			path = "DP18命令";
 			sourceTree = "<group>";
@@ -1319,6 +1344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */,
+				B18B6BDF23053F730014C7E5 /* DP18Kabob.m in Sources */,
 				B156DDE422D8C2040060F9EC /* DP05OperatonAddFactory.m in Sources */,
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
 				B156DE2E22D9E2B70060F9EC /* PersonBuliderDirector.m in Sources */,
@@ -1344,6 +1370,7 @@
 				B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */,
 				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
+				B18B6BDC23053F500014C7E5 /* DP18RoastedWings.m in Sources */,
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
 				B18F558D23019ADF00F9202D /* DP12Translator.m in Sources */,
 				DB920A1622D2490900A83EBB /* DP03ConcreteDecoratorB.m in Sources */,
@@ -1369,6 +1396,7 @@
 				B18F54C022F7C93F00F9202D /* DP15ViewController.m in Sources */,
 				B18F54BD22F7C93600F9202D /* DP14ViewController.m in Sources */,
 				B156DDEA22D8C2180060F9EC /* DP05OperatonMulFactory.m in Sources */,
+				B18B6BE6230540DD0014C7E5 /* DP18Cooker.m in Sources */,
 				B18F557B230112EB00F9202D /* DP11RestState.m in Sources */,
 				B18F558A2301985200F9202D /* DPForeignerCenter.m in Sources */,
 				B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */,
@@ -1410,8 +1438,10 @@
 				B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */,
 				B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */,
 				B18F55872301983F00F9202D /* DP12Guard.m in Sources */,
+				B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
+				B18B6BE3230540D40014C7E5 /* DP18Waiter.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,
 				B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */,
 				B18F54C622F7C95600F9202D /* DP17ViewController.m in Sources */,

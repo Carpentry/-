@@ -7,6 +7,11 @@
 //
 
 #import "DP18ViewController.h"
+#import "DP18Cooker.h"
+#import "DP18RoastedWings.h"
+#import "DP18Kabob.h"
+#import "DP18Waiter.h"
+#import "DP18Barbecue.h"
 
 @interface DP18ViewController ()
 
@@ -16,7 +21,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    DP18Cooker *cooker = [[DP18Cooker alloc] init];
+    DP18Barbecue *kabob = [[DP18Kabob alloc] initWithCooker:cooker];
+    DP18Barbecue *wings = [[DP18RoastedWings alloc] initWithCooker:cooker];
+    
+    DP18Waiter *waiter = [[DP18Waiter alloc] init];
+    [waiter addOrder:kabob];
+    [waiter addOrder:wings];
+    [waiter notify];
+
 }
 
 /*

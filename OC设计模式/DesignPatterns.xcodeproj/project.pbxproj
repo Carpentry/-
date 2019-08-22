@@ -61,6 +61,11 @@
 		B18B6BE3230540D40014C7E5 /* DP18Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE2230540D40014C7E5 /* DP18Waiter.m */; };
 		B18B6BE6230540DD0014C7E5 /* DP18Cooker.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE5230540DD0014C7E5 /* DP18Cooker.m */; };
 		B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6BE8230548FF0014C7E5 /* DP18Barbecue.m */; };
+		B18B6C3C230EBDD50014C7E5 /* DP19BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C3B230EBDD50014C7E5 /* DP19BaseManager.m */; };
+		B18B6C3F230EBE040014C7E5 /* DP19GeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C3E230EBE040014C7E5 /* DP19GeneralManager.m */; };
+		B18B6C42230EBE2F0014C7E5 /* DP19MajorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C41230EBE2F0014C7E5 /* DP19MajorManager.m */; };
+		B18B6C45230EBE7D0014C7E5 /* DP19CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C44230EBE7D0014C7E5 /* DP19CommonManager.m */; };
+		B18B6C48230EC1300014C7E5 /* DP19Request.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C47230EC1300014C7E5 /* DP19Request.m */; };
 		B18F54AE22F7C8CB00F9202D /* DP09ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */; };
 		B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B022F7C90C00F9202D /* DP10ViewController.m */; };
 		B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B322F7C91700F9202D /* DP11ViewController.m */; };
@@ -301,6 +306,16 @@
 		B18B6BE5230540DD0014C7E5 /* DP18Cooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Cooker.m; sourceTree = "<group>"; };
 		B18B6BE7230548FF0014C7E5 /* DP18Barbecue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP18Barbecue.h; sourceTree = "<group>"; };
 		B18B6BE8230548FF0014C7E5 /* DP18Barbecue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP18Barbecue.m; sourceTree = "<group>"; };
+		B18B6C3A230EBDD50014C7E5 /* DP19BaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19BaseManager.h; sourceTree = "<group>"; };
+		B18B6C3B230EBDD50014C7E5 /* DP19BaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19BaseManager.m; sourceTree = "<group>"; };
+		B18B6C3D230EBE040014C7E5 /* DP19GeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19GeneralManager.h; sourceTree = "<group>"; };
+		B18B6C3E230EBE040014C7E5 /* DP19GeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19GeneralManager.m; sourceTree = "<group>"; };
+		B18B6C40230EBE2F0014C7E5 /* DP19MajorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19MajorManager.h; sourceTree = "<group>"; };
+		B18B6C41230EBE2F0014C7E5 /* DP19MajorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19MajorManager.m; sourceTree = "<group>"; };
+		B18B6C43230EBE7D0014C7E5 /* DP19CommonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19CommonManager.h; sourceTree = "<group>"; };
+		B18B6C44230EBE7D0014C7E5 /* DP19CommonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19CommonManager.m; sourceTree = "<group>"; };
+		B18B6C46230EC1300014C7E5 /* DP19Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19Request.h; sourceTree = "<group>"; };
+		B18B6C47230EC1300014C7E5 /* DP19Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19Request.m; sourceTree = "<group>"; };
 		B18F54AC22F7C8CB00F9202D /* DP09ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP09ViewController.h; sourceTree = "<group>"; };
 		B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09ViewController.m; sourceTree = "<group>"; };
 		B18F54AF22F7C90C00F9202D /* DP10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10ViewController.h; sourceTree = "<group>"; };
@@ -897,6 +912,16 @@
 				B1B39D3922BB399800C039B4 /* 责任链模式.png */,
 				B18F54CA22F7C97600F9202D /* DP19ViewController.h */,
 				B18F54CB22F7C97600F9202D /* DP19ViewController.m */,
+				B18B6C46230EC1300014C7E5 /* DP19Request.h */,
+				B18B6C47230EC1300014C7E5 /* DP19Request.m */,
+				B18B6C3A230EBDD50014C7E5 /* DP19BaseManager.h */,
+				B18B6C3B230EBDD50014C7E5 /* DP19BaseManager.m */,
+				B18B6C3D230EBE040014C7E5 /* DP19GeneralManager.h */,
+				B18B6C3E230EBE040014C7E5 /* DP19GeneralManager.m */,
+				B18B6C40230EBE2F0014C7E5 /* DP19MajorManager.h */,
+				B18B6C41230EBE2F0014C7E5 /* DP19MajorManager.m */,
+				B18B6C43230EBE7D0014C7E5 /* DP19CommonManager.h */,
+				B18B6C44230EBE7D0014C7E5 /* DP19CommonManager.m */,
 			);
 			path = "DP19职责链";
 			sourceTree = "<group>";
@@ -1401,6 +1426,7 @@
 				B18F558A2301985200F9202D /* DPForeignerCenter.m in Sources */,
 				B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */,
 				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
+				B18B6C42230EBE2F0014C7E5 /* DP19MajorManager.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
 				B18F5568230111AD00F9202D /* DP11Work.m in Sources */,
@@ -1409,6 +1435,7 @@
 				B18F54CF22F7C98100F9202D /* DP20ViewController.m in Sources */,
 				B18F554C230100E000F9202D /* DP10SqlServerFactory.m in Sources */,
 				B18F54D822F7C9A700F9202D /* DP23ViewController.m in Sources */,
+				B18B6C3F230EBE040014C7E5 /* DP19GeneralManager.m in Sources */,
 				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				B18F54C922F7C96400F9202D /* DP18ViewController.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
@@ -1421,6 +1448,7 @@
 				B156DDE722D8C20E0060F9EC /* DP05OperatonSubFactory.m in Sources */,
 				B156DE1022D9D1780060F9EC /* TestPaper.m in Sources */,
 				B18F5575230112CA00F9202D /* DP11EveningState.m in Sources */,
+				B18B6C48230EC1300014C7E5 /* DP19Request.m in Sources */,
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
@@ -1443,7 +1471,9 @@
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B18B6BE3230540D40014C7E5 /* DP18Waiter.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,
+				B18B6C3C230EBDD50014C7E5 /* DP19BaseManager.m in Sources */,
 				B18F55A22301B05300F9202D /* DP14HRDepartment.m in Sources */,
+				B18B6C45230EBE7D0014C7E5 /* DP19CommonManager.m in Sources */,
 				B18F54C622F7C95600F9202D /* DP17ViewController.m in Sources */,
 				B18F54DE22F7D05900F9202D /* DP09Subject.m in Sources */,
 				B156DE1F22D9D6380060F9EC /* DP07SubSystemB.m in Sources */,

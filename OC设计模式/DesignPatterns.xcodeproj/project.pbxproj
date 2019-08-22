@@ -66,6 +66,11 @@
 		B18B6C42230EBE2F0014C7E5 /* DP19MajorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C41230EBE2F0014C7E5 /* DP19MajorManager.m */; };
 		B18B6C45230EBE7D0014C7E5 /* DP19CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C44230EBE7D0014C7E5 /* DP19CommonManager.m */; };
 		B18B6C48230EC1300014C7E5 /* DP19Request.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C47230EC1300014C7E5 /* DP19Request.m */; };
+		B18B6C4B230EC5650014C7E5 /* DP20Mediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C4A230EC5640014C7E5 /* DP20Mediator.m */; };
+		B18B6C4E230EC58B0014C7E5 /* DP20Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C4D230EC58B0014C7E5 /* DP20Colleague.m */; };
+		B18B6C51230EC5AA0014C7E5 /* DP20ConcreteColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C50230EC5AA0014C7E5 /* DP20ConcreteColleague.m */; };
+		B18B6C54230EC5C90014C7E5 /* DP20ConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C53230EC5C90014C7E5 /* DP20ConcreteColleague1.m */; };
+		B18B6C57230EC5E30014C7E5 /* DP20ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C56230EC5E30014C7E5 /* DP20ConcreteMediator.m */; };
 		B18F54AE22F7C8CB00F9202D /* DP09ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */; };
 		B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B022F7C90C00F9202D /* DP10ViewController.m */; };
 		B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B322F7C91700F9202D /* DP11ViewController.m */; };
@@ -316,6 +321,16 @@
 		B18B6C44230EBE7D0014C7E5 /* DP19CommonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19CommonManager.m; sourceTree = "<group>"; };
 		B18B6C46230EC1300014C7E5 /* DP19Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP19Request.h; sourceTree = "<group>"; };
 		B18B6C47230EC1300014C7E5 /* DP19Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP19Request.m; sourceTree = "<group>"; };
+		B18B6C49230EC5640014C7E5 /* DP20Mediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20Mediator.h; sourceTree = "<group>"; };
+		B18B6C4A230EC5640014C7E5 /* DP20Mediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20Mediator.m; sourceTree = "<group>"; };
+		B18B6C4C230EC58B0014C7E5 /* DP20Colleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20Colleague.h; sourceTree = "<group>"; };
+		B18B6C4D230EC58B0014C7E5 /* DP20Colleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20Colleague.m; sourceTree = "<group>"; };
+		B18B6C4F230EC5AA0014C7E5 /* DP20ConcreteColleague.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20ConcreteColleague.h; sourceTree = "<group>"; };
+		B18B6C50230EC5AA0014C7E5 /* DP20ConcreteColleague.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20ConcreteColleague.m; sourceTree = "<group>"; };
+		B18B6C52230EC5C90014C7E5 /* DP20ConcreteColleague1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20ConcreteColleague1.h; sourceTree = "<group>"; };
+		B18B6C53230EC5C90014C7E5 /* DP20ConcreteColleague1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20ConcreteColleague1.m; sourceTree = "<group>"; };
+		B18B6C55230EC5E30014C7E5 /* DP20ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20ConcreteMediator.h; sourceTree = "<group>"; };
+		B18B6C56230EC5E30014C7E5 /* DP20ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20ConcreteMediator.m; sourceTree = "<group>"; };
 		B18F54AC22F7C8CB00F9202D /* DP09ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP09ViewController.h; sourceTree = "<group>"; };
 		B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09ViewController.m; sourceTree = "<group>"; };
 		B18F54AF22F7C90C00F9202D /* DP10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10ViewController.h; sourceTree = "<group>"; };
@@ -949,6 +964,16 @@
 				B1B39D3D22BB399800C039B4 /* 中介者模式.png */,
 				B18F54CD22F7C98100F9202D /* DP20ViewController.h */,
 				B18F54CE22F7C98100F9202D /* DP20ViewController.m */,
+				B18B6C49230EC5640014C7E5 /* DP20Mediator.h */,
+				B18B6C4A230EC5640014C7E5 /* DP20Mediator.m */,
+				B18B6C55230EC5E30014C7E5 /* DP20ConcreteMediator.h */,
+				B18B6C56230EC5E30014C7E5 /* DP20ConcreteMediator.m */,
+				B18B6C4F230EC5AA0014C7E5 /* DP20ConcreteColleague.h */,
+				B18B6C50230EC5AA0014C7E5 /* DP20ConcreteColleague.m */,
+				B18B6C52230EC5C90014C7E5 /* DP20ConcreteColleague1.h */,
+				B18B6C53230EC5C90014C7E5 /* DP20ConcreteColleague1.m */,
+				B18B6C4C230EC58B0014C7E5 /* DP20Colleague.h */,
+				B18B6C4D230EC58B0014C7E5 /* DP20Colleague.m */,
 			);
 			path = "DP20中介者";
 			sourceTree = "<group>";
@@ -1383,6 +1408,7 @@
 				DB920A1022D248C100A83EBB /* DP03Decorator.m in Sources */,
 				DB920A2022D24D0700A83EBB /* DP03PersonDecorator.m in Sources */,
 				B156DDC222D5B53B0060F9EC /* DP04Girl.m in Sources */,
+				B18B6C57230EC5E30014C7E5 /* DP20ConcreteMediator.m in Sources */,
 				DB920A2322D24D3E00A83EBB /* DP03Tshirts.m in Sources */,
 				B156DD9F22CC90D50060F9EC /* DP01Tool.m in Sources */,
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
@@ -1391,10 +1417,12 @@
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
+				B18B6C4E230EC58B0014C7E5 /* DP20Colleague.m in Sources */,
 				B18F5552230101C900F9202D /* DP10SQLUser.m in Sources */,
 				B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */,
 				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
+				B18B6C51230EC5AA0014C7E5 /* DP20ConcreteColleague.m in Sources */,
 				B18B6BDC23053F500014C7E5 /* DP18RoastedWings.m in Sources */,
 				DB920A1322D248DF00A83EBB /* DP03ConcreteDecorator.m in Sources */,
 				B18F558D23019ADF00F9202D /* DP12Translator.m in Sources */,
@@ -1452,6 +1480,7 @@
 				B156DD9322CC90660060F9EC /* DP01Add.m in Sources */,
 				B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
+				B18B6C4B230EC5650014C7E5 /* DP20Mediator.m in Sources */,
 				B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */,
 				B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */,
 				B18F54C322F7C94800F9202D /* DP16ViewController.m in Sources */,
@@ -1469,6 +1498,7 @@
 				B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
+				B18B6C54230EC5C90014C7E5 /* DP20ConcreteColleague1.m in Sources */,
 				B18B6BE3230540D40014C7E5 /* DP18Waiter.m in Sources */,
 				B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */,
 				B18B6C3C230EBDD50014C7E5 /* DP19BaseManager.m in Sources */,

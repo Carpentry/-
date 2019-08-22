@@ -7,6 +7,9 @@
 //
 
 #import "DP20ViewController.h"
+#import "DP20ConcreteColleague1.h"
+#import "DP20ConcreteColleague.h"
+#import "DP20ConcreteMediator.h"
 
 @interface DP20ViewController ()
 
@@ -16,17 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    DP20ConcreteMediator *mediator = [[DP20ConcreteMediator alloc] init];
+
+    DP20ConcreteColleague *colleague = [[DP20ConcreteColleague alloc] initWithMediator:mediator];
+    DP20ConcreteColleague1 *colleague1 = [[DP20ConcreteColleague1 alloc] initWithMediator:mediator];
+    
+    mediator.colleague = colleague1;
+    mediator.colleague1 = colleague;
+    
+    [colleague send:@"111111"];
+    [colleague1 send:@"22222"];
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -7,6 +7,11 @@
 //
 
 #import "DP21ViewController.h"
+#import "DP21WebsiteFactory.h"
+#import "DP21BlogWebsite.h"
+#import "DP21NormalWebsite.h"
+#import "DP21User.h"
+#import "DP21Website.h"
 
 @interface DP21ViewController ()
 
@@ -16,17 +21,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    DP21WebsiteFactory *fa = [[DP21WebsiteFactory alloc] init];
+
+    DP21Website *web = [fa createWebsiteWithType:DP21WebTypeNormal];
+    [web useWithUser:[[DP21User alloc] initWithName:@"1"]];
+    
+    DP21Website *blog = [fa createWebsiteWithType:DP21WebTypeBlog];
+    [blog useWithUser:[[DP21User alloc] initWithName:@"2"]];
+    
+    [web useWithUser:[[DP21User alloc] initWithName:@"3"]];
+
+    [web useWithUser:[[DP21User alloc] initWithName:@"4"]];
+
+    [blog useWithUser:[[DP21User alloc] initWithName:@"5"]];
+
+    NSLog(@"%zd个对象",[fa getNumberofInstance]);
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

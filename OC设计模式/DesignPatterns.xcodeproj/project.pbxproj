@@ -71,6 +71,11 @@
 		B18B6C51230EC5AA0014C7E5 /* DP20ConcreteColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C50230EC5AA0014C7E5 /* DP20ConcreteColleague.m */; };
 		B18B6C54230EC5C90014C7E5 /* DP20ConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C53230EC5C90014C7E5 /* DP20ConcreteColleague1.m */; };
 		B18B6C57230EC5E30014C7E5 /* DP20ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C56230EC5E30014C7E5 /* DP20ConcreteMediator.m */; };
+		B18B6C5A23138C330014C7E5 /* DP21WebsiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C5923138C330014C7E5 /* DP21WebsiteFactory.m */; };
+		B18B6C5D23138C530014C7E5 /* DP21Website.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C5C23138C530014C7E5 /* DP21Website.m */; };
+		B18B6C6023138C7B0014C7E5 /* DP21User.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C5F23138C7B0014C7E5 /* DP21User.m */; };
+		B18B6C632313ADD90014C7E5 /* DP21BlogWebsite.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C622313ADD90014C7E5 /* DP21BlogWebsite.m */; };
+		B18B6C662313ADEA0014C7E5 /* DP21NormalWebsite.m in Sources */ = {isa = PBXBuildFile; fileRef = B18B6C652313ADEA0014C7E5 /* DP21NormalWebsite.m */; };
 		B18F54AE22F7C8CB00F9202D /* DP09ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */; };
 		B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B022F7C90C00F9202D /* DP10ViewController.m */; };
 		B18F54B422F7C91700F9202D /* DP11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F54B322F7C91700F9202D /* DP11ViewController.m */; };
@@ -331,6 +336,16 @@
 		B18B6C53230EC5C90014C7E5 /* DP20ConcreteColleague1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20ConcreteColleague1.m; sourceTree = "<group>"; };
 		B18B6C55230EC5E30014C7E5 /* DP20ConcreteMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP20ConcreteMediator.h; sourceTree = "<group>"; };
 		B18B6C56230EC5E30014C7E5 /* DP20ConcreteMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP20ConcreteMediator.m; sourceTree = "<group>"; };
+		B18B6C5823138C330014C7E5 /* DP21WebsiteFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP21WebsiteFactory.h; sourceTree = "<group>"; };
+		B18B6C5923138C330014C7E5 /* DP21WebsiteFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP21WebsiteFactory.m; sourceTree = "<group>"; };
+		B18B6C5B23138C530014C7E5 /* DP21Website.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP21Website.h; sourceTree = "<group>"; };
+		B18B6C5C23138C530014C7E5 /* DP21Website.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP21Website.m; sourceTree = "<group>"; };
+		B18B6C5E23138C7B0014C7E5 /* DP21User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP21User.h; sourceTree = "<group>"; };
+		B18B6C5F23138C7B0014C7E5 /* DP21User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP21User.m; sourceTree = "<group>"; };
+		B18B6C612313ADD90014C7E5 /* DP21BlogWebsite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP21BlogWebsite.h; sourceTree = "<group>"; };
+		B18B6C622313ADD90014C7E5 /* DP21BlogWebsite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP21BlogWebsite.m; sourceTree = "<group>"; };
+		B18B6C642313ADEA0014C7E5 /* DP21NormalWebsite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP21NormalWebsite.h; sourceTree = "<group>"; };
+		B18B6C652313ADEA0014C7E5 /* DP21NormalWebsite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP21NormalWebsite.m; sourceTree = "<group>"; };
 		B18F54AC22F7C8CB00F9202D /* DP09ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP09ViewController.h; sourceTree = "<group>"; };
 		B18F54AD22F7C8CB00F9202D /* DP09ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP09ViewController.m; sourceTree = "<group>"; };
 		B18F54AF22F7C90C00F9202D /* DP10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP10ViewController.h; sourceTree = "<group>"; };
@@ -994,6 +1009,16 @@
 				B1B39D4122BB399800C039B4 /* 享元模式.png */,
 				B18F54D022F7C98B00F9202D /* DP21ViewController.h */,
 				B18F54D122F7C98B00F9202D /* DP21ViewController.m */,
+				B18B6C5823138C330014C7E5 /* DP21WebsiteFactory.h */,
+				B18B6C5923138C330014C7E5 /* DP21WebsiteFactory.m */,
+				B18B6C5B23138C530014C7E5 /* DP21Website.h */,
+				B18B6C5C23138C530014C7E5 /* DP21Website.m */,
+				B18B6C612313ADD90014C7E5 /* DP21BlogWebsite.h */,
+				B18B6C622313ADD90014C7E5 /* DP21BlogWebsite.m */,
+				B18B6C642313ADEA0014C7E5 /* DP21NormalWebsite.h */,
+				B18B6C652313ADEA0014C7E5 /* DP21NormalWebsite.m */,
+				B18B6C5E23138C7B0014C7E5 /* DP21User.h */,
+				B18B6C5F23138C7B0014C7E5 /* DP21User.m */,
 			);
 			path = "DP21享元";
 			sourceTree = "<group>";
@@ -1401,6 +1426,7 @@
 				B156DDDA22D8C1930060F9EC /* DP05OperationMul.m in Sources */,
 				B18F55A82301B91300F9202D /* DP16Singleton.m in Sources */,
 				B18F54D222F7C98B00F9202D /* DP21ViewController.m in Sources */,
+				B18B6C5A23138C330014C7E5 /* DP21WebsiteFactory.m in Sources */,
 				DBAA000522D037F30021148C /* DP02CashRebate.m in Sources */,
 				B156DD9622CC90700060F9EC /* DP01Minus.m in Sources */,
 				B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */,
@@ -1456,6 +1482,7 @@
 				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
 				B18B6C42230EBE2F0014C7E5 /* DP19MajorManager.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
+				B18B6C6023138C7B0014C7E5 /* DP21User.m in Sources */,
 				B156DD8322CC5A3D0060F9EC /* DP01ViewController.m in Sources */,
 				B18F5568230111AD00F9202D /* DP11Work.m in Sources */,
 				B156DE3222D9E3190060F9EC /* PersonFatBuilder.m in Sources */,
@@ -1470,6 +1497,7 @@
 				B18F54E522F7D13200F9202D /* DP09NBAObserver.m in Sources */,
 				B18F555F2301048200F9202D /* DP10AccessUser.m in Sources */,
 				DB920A2622D24D5000A83EBB /* DP03BigTrouser.m in Sources */,
+				B18B6C5D23138C530014C7E5 /* DP21Website.m in Sources */,
 				B18F55622301049E00F9202D /* DP10SqlServerDepartment.m in Sources */,
 				B18F555C2301046800F9202D /* DP10SqlServerUser.m in Sources */,
 				DB920A1D22D24C9D00A83EBB /* DP03Person.m in Sources */,
@@ -1496,6 +1524,8 @@
 				B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */,
 				B18F55872301983F00F9202D /* DP12Guard.m in Sources */,
 				B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */,
+				B18B6C632313ADD90014C7E5 /* DP21BlogWebsite.m in Sources */,
+				B18B6C662313ADEA0014C7E5 /* DP21NormalWebsite.m in Sources */,
 				B156DDD422D8C1820060F9EC /* DP05OperationAdd.m in Sources */,
 				B156DD7D22CC53280060F9EC /* DPViewCell.m in Sources */,
 				B18B6C54230EC5C90014C7E5 /* DP20ConcreteColleague1.m in Sources */,

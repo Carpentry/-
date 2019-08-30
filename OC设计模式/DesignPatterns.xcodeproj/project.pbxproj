@@ -126,6 +126,10 @@
 		B18F55B023025B2900F9202D /* DP17PhoneN.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55AF23025B2900F9202D /* DP17PhoneN.m */; };
 		B18F55C2230265FC00F9202D /* DP17Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55C1230265FC00F9202D /* DP17Contact.m */; };
 		B18F55C52302661400F9202D /* DP17Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B18F55C42302661400F9202D /* DP17Game.m */; };
+		B1B386FA23151E5F003E4D33 /* DP22Context.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B386F923151E5F003E4D33 /* DP22Context.m */; };
+		B1B386FD23151EA1003E4D33 /* DP22Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B386FC23151EA1003E4D33 /* DP22Expression.m */; };
+		B1B387032315203F003E4D33 /* DP22ScaleExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B387022315203F003E4D33 /* DP22ScaleExpression.m */; };
+		B1B3870623152057003E4D33 /* DP22NoteExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3870523152057003E4D33 /* DP22NoteExpression.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -455,6 +459,14 @@
 		B18F55C1230265FC00F9202D /* DP17Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17Contact.m; sourceTree = "<group>"; };
 		B18F55C32302661400F9202D /* DP17Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP17Game.h; sourceTree = "<group>"; };
 		B18F55C42302661400F9202D /* DP17Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP17Game.m; sourceTree = "<group>"; };
+		B1B386F823151E5F003E4D33 /* DP22Context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP22Context.h; sourceTree = "<group>"; };
+		B1B386F923151E5F003E4D33 /* DP22Context.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22Context.m; sourceTree = "<group>"; };
+		B1B386FB23151EA1003E4D33 /* DP22Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP22Expression.h; sourceTree = "<group>"; };
+		B1B386FC23151EA1003E4D33 /* DP22Expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22Expression.m; sourceTree = "<group>"; };
+		B1B387012315203F003E4D33 /* DP22ScaleExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP22ScaleExpression.h; sourceTree = "<group>"; };
+		B1B387022315203F003E4D33 /* DP22ScaleExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22ScaleExpression.m; sourceTree = "<group>"; };
+		B1B3870423152057003E4D33 /* DP22NoteExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP22NoteExpression.h; sourceTree = "<group>"; };
+		B1B3870523152057003E4D33 /* DP22NoteExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22NoteExpression.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -999,6 +1011,14 @@
 				B1B39D3F22BB399800C039B4 /* 解释器模式.png */,
 				B18F54D322F7C99500F9202D /* DP22ViewController.h */,
 				B18F54D422F7C99500F9202D /* DP22ViewController.m */,
+				B1B386F823151E5F003E4D33 /* DP22Context.h */,
+				B1B386F923151E5F003E4D33 /* DP22Context.m */,
+				B1B386FB23151EA1003E4D33 /* DP22Expression.h */,
+				B1B386FC23151EA1003E4D33 /* DP22Expression.m */,
+				B1B387012315203F003E4D33 /* DP22ScaleExpression.h */,
+				B1B387022315203F003E4D33 /* DP22ScaleExpression.m */,
+				B1B3870423152057003E4D33 /* DP22NoteExpression.h */,
+				B1B3870523152057003E4D33 /* DP22NoteExpression.m */,
 			);
 			path = "DP22解释器";
 			sourceTree = "<group>";
@@ -1419,6 +1439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB920A2C22D24D7500A83EBB /* DP03LeatherShoes.m in Sources */,
+				B1B386FA23151E5F003E4D33 /* DP22Context.m in Sources */,
 				B18B6BDF23053F730014C7E5 /* DP18Kabob.m in Sources */,
 				B156DDE422D8C2040060F9EC /* DP05OperatonAddFactory.m in Sources */,
 				B156DDA222CDA7B30060F9EC /* DP02ViewController.m in Sources */,
@@ -1440,6 +1461,7 @@
 				B156DD9C22CC90920060F9EC /* DP01Divide.m in Sources */,
 				B18F55C2230265FC00F9202D /* DP17Contact.m in Sources */,
 				B18F54B122F7C90C00F9202D /* DP10ViewController.m in Sources */,
+				B1B386FD23151EA1003E4D33 /* DP22Expression.m in Sources */,
 				B156DD8F22CC8FFD0060F9EC /* DP01Factory.m in Sources */,
 				B156DDF822D9BD920060F9EC /* Verter.m in Sources */,
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
@@ -1520,7 +1542,9 @@
 				B156DDC522D5B58D0060F9EC /* DP04Pursuit.m in Sources */,
 				DBAA000B22D03BD40021148C /* DP02CashFactory.m in Sources */,
 				B18F54D522F7C99500F9202D /* DP22ViewController.m in Sources */,
+				B1B387032315203F003E4D33 /* DP22ScaleExpression.m in Sources */,
 				B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */,
+				B1B3870623152057003E4D33 /* DP22NoteExpression.m in Sources */,
 				B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */,
 				B18F55872301983F00F9202D /* DP12Guard.m in Sources */,
 				B18B6BE9230548FF0014C7E5 /* DP18Barbecue.m in Sources */,

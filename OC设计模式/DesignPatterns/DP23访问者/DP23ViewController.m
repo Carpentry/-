@@ -7,6 +7,12 @@
 //
 
 #import "DP23ViewController.h"
+#import "DP23ObjectStructure.h"
+#import "DP23Man.h"
+#import "DP23Woman.h"
+#import "DP23Success.h"
+#import "DP23Failed.h"
+#import "DP23Amativeness.h"
 
 @interface DP23ViewController ()
 
@@ -16,7 +22,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    DP23ObjectStructure *stru = [[DP23ObjectStructure alloc] init];
+    [stru add:[[DP23Woman alloc] init]];
+    [stru add:[[DP23Man alloc] init]];
+    
+    [stru display:[[DP23Success alloc] init]];
+    [stru display:[[DP23Failed alloc] init]];
+    [stru display:[[DP23Amativeness alloc] init]];
 }
 
 /*

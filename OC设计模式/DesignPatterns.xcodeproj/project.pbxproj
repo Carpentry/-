@@ -130,6 +130,14 @@
 		B1B386FD23151EA1003E4D33 /* DP22Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B386FC23151EA1003E4D33 /* DP22Expression.m */; };
 		B1B387032315203F003E4D33 /* DP22ScaleExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B387022315203F003E4D33 /* DP22ScaleExpression.m */; };
 		B1B3870623152057003E4D33 /* DP22NoteExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3870523152057003E4D33 /* DP22NoteExpression.m */; };
+		B1B3871B231CEB11003E4D33 /* DP23ObjectStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3871A231CEB11003E4D33 /* DP23ObjectStructure.m */; };
+		B1B3871E231CEB25003E4D33 /* DP23Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3871D231CEB25003E4D33 /* DP23Person.m */; };
+		B1B38721231CEB34003E4D33 /* DP23Man.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B38720231CEB34003E4D33 /* DP23Man.m */; };
+		B1B38724231CEB3E003E4D33 /* DP23Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B38723231CEB3E003E4D33 /* DP23Woman.m */; };
+		B1B38727231CEB5C003E4D33 /* DP23Action.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B38726231CEB5C003E4D33 /* DP23Action.m */; };
+		B1B3872A231CEB70003E4D33 /* DP23Success.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B38729231CEB70003E4D33 /* DP23Success.m */; };
+		B1B3872D231CEB79003E4D33 /* DP23Failed.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3872C231CEB79003E4D33 /* DP23Failed.m */; };
+		B1B38730231CF121003E4D33 /* DP23Amativeness.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B3872F231CF121003E4D33 /* DP23Amativeness.m */; };
 		B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF122BB30C400C039B4 /* AppDelegate.m */; };
 		B1B39CF522BB30C400C039B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B39CF422BB30C400C039B4 /* ViewController.m */; };
 		B1B39CF822BB30C400C039B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B39CF622BB30C400C039B4 /* Main.storyboard */; };
@@ -467,6 +475,22 @@
 		B1B387022315203F003E4D33 /* DP22ScaleExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22ScaleExpression.m; sourceTree = "<group>"; };
 		B1B3870423152057003E4D33 /* DP22NoteExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP22NoteExpression.h; sourceTree = "<group>"; };
 		B1B3870523152057003E4D33 /* DP22NoteExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP22NoteExpression.m; sourceTree = "<group>"; };
+		B1B38719231CEB11003E4D33 /* DP23ObjectStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23ObjectStructure.h; sourceTree = "<group>"; };
+		B1B3871A231CEB11003E4D33 /* DP23ObjectStructure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23ObjectStructure.m; sourceTree = "<group>"; };
+		B1B3871C231CEB25003E4D33 /* DP23Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Person.h; sourceTree = "<group>"; };
+		B1B3871D231CEB25003E4D33 /* DP23Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Person.m; sourceTree = "<group>"; };
+		B1B3871F231CEB34003E4D33 /* DP23Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Man.h; sourceTree = "<group>"; };
+		B1B38720231CEB34003E4D33 /* DP23Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Man.m; sourceTree = "<group>"; };
+		B1B38722231CEB3E003E4D33 /* DP23Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Woman.h; sourceTree = "<group>"; };
+		B1B38723231CEB3E003E4D33 /* DP23Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Woman.m; sourceTree = "<group>"; };
+		B1B38725231CEB5C003E4D33 /* DP23Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Action.h; sourceTree = "<group>"; };
+		B1B38726231CEB5C003E4D33 /* DP23Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Action.m; sourceTree = "<group>"; };
+		B1B38728231CEB70003E4D33 /* DP23Success.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Success.h; sourceTree = "<group>"; };
+		B1B38729231CEB70003E4D33 /* DP23Success.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Success.m; sourceTree = "<group>"; };
+		B1B3872B231CEB79003E4D33 /* DP23Failed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Failed.h; sourceTree = "<group>"; };
+		B1B3872C231CEB79003E4D33 /* DP23Failed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Failed.m; sourceTree = "<group>"; };
+		B1B3872E231CF121003E4D33 /* DP23Amativeness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DP23Amativeness.h; sourceTree = "<group>"; };
+		B1B3872F231CF121003E4D33 /* DP23Amativeness.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DP23Amativeness.m; sourceTree = "<group>"; };
 		B1B39CED22BB30C400C039B4 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B39CF022BB30C400C039B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1B39CF122BB30C400C039B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1047,8 +1071,24 @@
 			isa = PBXGroup;
 			children = (
 				B1B39D4322BB399800C039B4 /* 访问者模式.png */,
+				B1B38719231CEB11003E4D33 /* DP23ObjectStructure.h */,
+				B1B3871A231CEB11003E4D33 /* DP23ObjectStructure.m */,
 				B18F54D622F7C9A700F9202D /* DP23ViewController.h */,
 				B18F54D722F7C9A700F9202D /* DP23ViewController.m */,
+				B1B3871C231CEB25003E4D33 /* DP23Person.h */,
+				B1B3871D231CEB25003E4D33 /* DP23Person.m */,
+				B1B3871F231CEB34003E4D33 /* DP23Man.h */,
+				B1B38720231CEB34003E4D33 /* DP23Man.m */,
+				B1B38722231CEB3E003E4D33 /* DP23Woman.h */,
+				B1B38723231CEB3E003E4D33 /* DP23Woman.m */,
+				B1B38725231CEB5C003E4D33 /* DP23Action.h */,
+				B1B38726231CEB5C003E4D33 /* DP23Action.m */,
+				B1B38728231CEB70003E4D33 /* DP23Success.h */,
+				B1B38729231CEB70003E4D33 /* DP23Success.m */,
+				B1B3872B231CEB79003E4D33 /* DP23Failed.h */,
+				B1B3872C231CEB79003E4D33 /* DP23Failed.m */,
+				B1B3872E231CF121003E4D33 /* DP23Amativeness.h */,
+				B1B3872F231CF121003E4D33 /* DP23Amativeness.m */,
 			);
 			path = "DP23访问者";
 			sourceTree = "<group>";
@@ -1467,6 +1507,7 @@
 				DBAA000E22D04ADB0021148C /* DP02Context.m in Sources */,
 				B18B6C4E230EC58B0014C7E5 /* DP20Colleague.m in Sources */,
 				B18F5552230101C900F9202D /* DP10SQLUser.m in Sources */,
+				B1B3872D231CEB79003E4D33 /* DP23Failed.m in Sources */,
 				B156DE2222D9D6400060F9EC /* DP07SubSystemC.m in Sources */,
 				B156DE1322D9D18F0060F9EC /* TestPaperA.m in Sources */,
 				B156DDF122D9BC040060F9EC /* DP24ViewController.m in Sources */,
@@ -1502,6 +1543,7 @@
 				B18F558A2301985200F9202D /* DPForeignerCenter.m in Sources */,
 				B156DE3522D9E32A0060F9EC /* PersonThinBuilder.m in Sources */,
 				B156DE1C22D9D62D0060F9EC /* DP07SubSystemA.m in Sources */,
+				B1B3871E231CEB25003E4D33 /* DP23Person.m in Sources */,
 				B18B6C42230EBE2F0014C7E5 /* DP19MajorManager.m in Sources */,
 				B156DD8622CC5A630060F9EC /* DPVCManager.m in Sources */,
 				B18B6C6023138C7B0014C7E5 /* DP21User.m in Sources */,
@@ -1513,6 +1555,7 @@
 				B18F554C230100E000F9202D /* DP10SqlServerFactory.m in Sources */,
 				B18F54D822F7C9A700F9202D /* DP23ViewController.m in Sources */,
 				B18B6C3F230EBE040014C7E5 /* DP19GeneralManager.m in Sources */,
+				B1B38724231CEB3E003E4D33 /* DP23Woman.m in Sources */,
 				B156DDED22D8C2310060F9EC /* DP05OperatonDivFactory.m in Sources */,
 				B18F54C922F7C96400F9202D /* DP18ViewController.m in Sources */,
 				DB920A0722D2404A00A83EBB /* DP03ViewController.m in Sources */,
@@ -1531,11 +1574,13 @@
 				B18F5555230101D600F9202D /* DP10SQLDepartment.m in Sources */,
 				B156DE1622D9D19B0060F9EC /* TestPaperB.m in Sources */,
 				B18B6C4B230EC5650014C7E5 /* DP20Mediator.m in Sources */,
+				B1B38730231CF121003E4D33 /* DP23Amativeness.m in Sources */,
 				B156DE2B22D9E27E0060F9EC /* DP08ViewController.m in Sources */,
 				B18F5565230104B200F9202D /* DP10AccessDepartment.m in Sources */,
 				B18F54C322F7C94800F9202D /* DP16ViewController.m in Sources */,
 				B18F55902301A69D00F9202D /* DP13GameRoll.m in Sources */,
 				B156DE1922D9D5AD0060F9EC /* DP07ViewController.m in Sources */,
+				B1B3871B231CEB11003E4D33 /* DP23ObjectStructure.m in Sources */,
 				B156DE2822D9D6620060F9EC /* DP07Facade.m in Sources */,
 				DB920A0D22D248AC00A83EBB /* DP03ConcreteComponent.m in Sources */,
 				B156DDCC22D8C0D10060F9EC /* DP05ViewController.m in Sources */,
@@ -1544,6 +1589,7 @@
 				B18F54D522F7C99500F9202D /* DP22ViewController.m in Sources */,
 				B1B387032315203F003E4D33 /* DP22ScaleExpression.m in Sources */,
 				B18F554F230100F600F9202D /* DP10AccessFactory.m in Sources */,
+				B1B38727231CEB5C003E4D33 /* DP23Action.m in Sources */,
 				B1B3870623152057003E4D33 /* DP22NoteExpression.m in Sources */,
 				B18F556C2301129900F9202D /* DP11ForenoonState.m in Sources */,
 				B18F55872301983F00F9202D /* DP12Guard.m in Sources */,
@@ -1566,7 +1612,9 @@
 				B1B39CF222BB30C400C039B4 /* AppDelegate.m in Sources */,
 				B18F5581230197DC00F9202D /* DP12Forward.m in Sources */,
 				B156DDF522D9BD7F0060F9EC /* Dot.m in Sources */,
+				B1B38721231CEB34003E4D33 /* DP23Man.m in Sources */,
 				B18F55A52301B06600F9202D /* DP14FinanceDepartment.m in Sources */,
+				B1B3872A231CEB70003E4D33 /* DP23Success.m in Sources */,
 				B156DDFD22D9C7D40060F9EC /* UnderGraduate.m in Sources */,
 				B18F5572230112B600F9202D /* DP11AfternootState.m in Sources */,
 				B156DD9922CC90820060F9EC /* DP01Multiply.m in Sources */,

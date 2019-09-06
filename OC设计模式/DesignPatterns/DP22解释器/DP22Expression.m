@@ -15,22 +15,29 @@
     if (context.playText.length == 0) {
         return;
     }
-    NSString *playKey = [context.playText substringWithRange:NSMakeRange(0, 1)];
-    double playValue = [[context.playText substringWithRange:NSMakeRange(2, 1)] doubleValue];
-    context.playText = [context.playText substringFromIndex:3];
+    NSArray *strArr = [context.playText componentsSeparatedByString:@" "];
+    
+    NSString *playKey = [strArr objectAtIndex:0];
+    double playValue = [[strArr objectAtIndex:1] floatValue];
+
+    NSMutableArray *strArrM = [[NSMutableArray alloc] initWithArray:strArr];
+    [strArrM removeObjectsInRange:NSMakeRange(0, 2)];
+    NSString *playText = [strArrM componentsJoinedByString:@" "];
+    context.playText = playText;
+    NSLog(@"key:%@,value:%f",playKey,playValue);
     [self executeWithKey:[self exchangeKey:playKey] value:playValue];
 }
 
 - (DP22ExpressionType)exchangeKey:(NSString *)playText {
     if ([playText isEqualToString:@"c"] || [playText isEqualToString:@"C"]) {
         return DP22ExpressionTypeC;
-    } else if ([playText isEqualToString:@"d"] || [playText isEqualToString:@"B"]) {
+    } else if ([playText isEqualToString:@"d"] || [playText isEqualToString:@"D"]) {
         return DP22ExpressionTypeD;
-    } else if ([playText isEqualToString:@"e"] || [playText isEqualToString:@"D"]) {
+    } else if ([playText isEqualToString:@"e"] || [playText isEqualToString:@"E"]) {
         return DP22ExpressionTypeE;
-    } else if ([playText isEqualToString:@"f"] || [playText isEqualToString:@"E"]) {
+    } else if ([playText isEqualToString:@"f"] || [playText isEqualToString:@"F"]) {
         return DP22ExpressionTypeF;
-    } else if ([playText isEqualToString:@"g"] || [playText isEqualToString:@"F"]) {
+    } else if ([playText isEqualToString:@"g"] || [playText isEqualToString:@"G"]) {
         return DP22ExpressionTypeG;
     } else if ([playText isEqualToString:@"a"] || [playText isEqualToString:@"A"]) {
         return DP22ExpressionTypeA;
